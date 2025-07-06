@@ -5,6 +5,7 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import fm from "front-matter";
+
 export default function FullGallery() {
   const [layoutType] = useState("improved-masonry");
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function FullGallery() {
   const { t } = useTranslation();
 
   // 👇 Load all markdown files in gallery
-  const markdownFiles = import.meta.glob("/src/content/gallery/*.md", {
+  const markdownFiles = import.meta.glob("/src/content/Images/gallery/*.md", {
     eager: true,
     as: "raw",
   });
@@ -67,12 +68,14 @@ export default function FullGallery() {
             className="flex flex-col gap-4"
           >
             {column.map((file) => (
-              <div
-                key={file.index}
-                className="cursor-pointer"
-                onClick={() => openModal(file.index)}
-              >
-                <LazyMotionItem type={file.type} src={file.src} />
+              <div>
+                <div
+                  key={file.index}
+                  className="cursor-pointer"
+                  onClick={() => openModal(file.index)}
+                >
+                  <LazyMotionItem type={file.type} src={file.src} />
+                </div>
               </div>
             ))}
           </motion.div>
