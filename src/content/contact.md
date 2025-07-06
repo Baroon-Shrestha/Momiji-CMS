@@ -1,5 +1,5 @@
 ---
-phone: +977-9818739823
-email: info@momiji.com
+phone: +977-9851335507
+email: momijiinepal@gmail.com
 location: Samakhushi-10, Kathmandu
 ---
