@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Team() {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -7,59 +8,9 @@ export default function Team() {
   const [direction, setDirection] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(null);
-
+  const { t } = useTranslation();
   // Team members data
-  const teamMembers = [
-    {
-      image: "/uploads/CEO.jpg",
-      name: "Jitendra Shrestha",
-      role: "CEO & Founder",
-      description:
-        "Visionary leader with over 15 years of experience in building successful teams and driving innovation. John's passion for excellence and commitment to quality has shaped our company culture from day one. He believes in empowering every team member to reach their full potential. With a background in strategic planning and business development, John has led our company through multiple successful expansions and continues to inspire our team with his forward-thinking approach. His dedication to creating a positive work environment and fostering professional growth has made our company a place where talented individuals thrive and contribute to our collective success.",
-    },
-    {
-      image: "/uploads/imp/team2.avif",
-      name: "Sarah Mitchell",
-      role: "Front Desk Officer",
-      description:
-        "The friendly face that welcomes everyone with a warm smile. Sarah ensures every visitor feels at home and manages our front operations with exceptional attention to detail and customer service excellence. Her organizational skills and ability to multitask make her an invaluable member of our team. Sarah has implemented several customer service improvements that have significantly enhanced our client satisfaction ratings. She coordinates with various departments to ensure smooth operations and maintains detailed records of all visitor interactions. Her professional demeanor and problem-solving abilities have earned her recognition as employee of the month multiple times.",
-    },
-    {
-      image: "/uploads/imp/team1.avif",
-      name: "Mike Johnson",
-      role: "Senior Instructor",
-      description:
-        "Expert instructor with a talent for making complex concepts simple and engaging. Mike's innovative teaching methods and patient approach have helped hundreds of students achieve their goals. With advanced certifications in multiple disciplines and over a decade of teaching experience, Mike has developed a unique curriculum that combines theoretical knowledge with practical application. His students consistently achieve high success rates, and many credit his mentorship as a turning point in their careers. Mike regularly attends professional development workshops to stay current with industry trends and incorporates the latest best practices into his teaching methodology.",
-    },
-    {
-      image: "/uploads/imp/team3.avif",
-      name: "Emily Davis",
-      role: "Manager",
-      description:
-        "Coffee artisan who transforms simple beans into extraordinary experiences. Emily's creativity and attention to detail ensure every cup tells a story of passion and perfection.",
-    },
-    {
-      image: "/uploads/imp/team4.avif",
-      name: "David Wilson",
-      role: "Instructor",
-      description:
-        "Strategic thinker who keeps everything running smoothly behind the scenes. David's organizational skills and problem-solving abilities ensure our team operates at peak efficiency.",
-    },
-    {
-      image: "/uploads/imp/team5.avif",
-      name: "Lisa Brown",
-      role: "Instructor",
-      description:
-        "Culinary artist who brings creativity and passion to every dish. Lisa's innovative approach to cooking and commitment to fresh, quality ingredients makes every meal memorable.",
-    },
-    {
-      image: "/uploads/imp/team6.avif",
-      name: "Alex Garcia",
-      role: "Instructor",
-      description:
-        "Rising culinary talent with exceptional skills and creative flair. Alex supports our kitchen operations with precision and brings fresh ideas to our menu development.",
-    },
-  ];
+  const teamMembers = t("home.team.members", { returnObjects: true });
 
   const openModal = (index) => {
     setSelectedIndex(index);
@@ -133,9 +84,10 @@ export default function Team() {
     <div className="bg-gradient-to-b from-[#F05A22] via-[#F78C1F] to-[#FBC21B] text-[#FFFAE9] rounded-4xl pt-12 mb-16">
       <div className="container mx-auto px-4 relative">
         {/* Background Text */}
-        <div className="absolute left-1/2  top-0 transform -translate-x-1/2 -translate-y-12 pointer-events-none">
-          <span className="text-8xl hidden md:block md:text-[12rem] lg:text-[15rem] font-extrabold text-gray-200 opacity-20 select-none whitespace-nowrap text-shadow-lg">
-            Our Team
+        <div className="absolute left-1/2  top-20 transform -translate-x-1/2 -translate-y-12 pointer-events-none">
+          <span className="text-4xl hidden md:block md:text-[7rem] lg:text-[10rem] font-extrabold text-gray-200 opacity-20 select-none whitespace-nowrap text-shadow-lg">
+            {t("home.team.bgheading")}
+            {/* Our Team */}
           </span>
         </div>
 
@@ -143,14 +95,11 @@ export default function Team() {
         <div className="flex items-center justify-center flex-col gap-6 pb-16 relative z-10">
           <div className="text-center space-y-4">
             <h2 className="text-5xl md:text-6xl font-bold bg-graient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text tet-transparent">
-              Meet Our Team
+              {t("home.team.heading")}
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-amber-100 to-amber-500 mx-auto rounded-full"></div>
           </div>
           <p className="max-w-3xl text-center text-lg text-ray-600 leading-relaxed">
-            Passionate professionals dedicated to delivering exceptional
-            experiences. Each member brings unique expertise and creativity to
-            make our vision a reality.
+            {t("home.team.subheading")}
           </p>
         </div>
 

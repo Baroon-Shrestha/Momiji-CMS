@@ -150,6 +150,67 @@
         "button": "今すぐご連絡ください"
       }
     },
+    "team": {
+      "bgheading": "私たちのチーム",
+      "heading": "私たちのチームのご紹介",
+      "subheading": "卓越した体験を提供することに情熱を注ぐプロフェッショナル。各メンバーが独自の専門知識と創造性を持ち寄り、私たちのビジョンを実現します。",
+      "members": [
+        {
+          "image": "/uploads/CEO.jpg",
+          "name": "Jitendra Shrestha",
+          "role": "CEO & Founder",
+          "description": "With a deep passion for education and global opportunities, Jitendra founded our consultancy to guide students towards a successful future in Japan. With over 15 years of experience in the international education sector, he has built a trusted bridge between aspiring students and top Japanese institutions. His leadership and vision continue to shape our mission of quality service, transparency, and personalized guidance for every student."
+        },
+        {
+          "image": "/uploads/imp/team1.avif",
+          "name": "Nista Dangol",
+          "role": "Co-ordinator",
+          "description": "Nista plays a key role in managing student applications and university communications. Her strong organizational skills and deep understanding of Japanese admission processes make her the backbone of our student transition system. She ensures timely submission of all documents and supports students throughout their journey with personalized attention."
+        },
+        {
+          "image": "/uploads/imp/team2.avif",
+          "name": "Sandhaya Yonjan",
+          "role": "Front Desk Officer",
+          "description": "The warm and welcoming face of our consultancy, Saraswati ensures every student and visitor feels valued from the moment they walk in. She manages appointments, responds to inquiries, and maintains a calm and professional environment at the front desk, making her an essential part of our student experience."
+        },
+        {
+          "image": "/uploads/imp/team3.avif",
+          "name": "Jiten Shrestha",
+          "role": "Document Officer",
+          "description": "Rajan handles all documentation procedures with precision and care. From preparing university applications to ensuring all visa-related documents are correctly compiled, he ensures every student's paperwork is accurate and complete. His attention to detail reduces errors and speeds up the admission process."
+        },
+        {
+          "image": "/uploads/imp/team4.avif",
+          "name": "Nishan Poudel",
+          "role": "Cheif Marketing Officer",
+          "description": "Sanjay brings over a decade of experience in Japanese language education. His engaging teaching style and practical approach have helped hundreds of students pass language proficiency tests and adapt smoothly to life in Japan. He also guides students in understanding Japanese culture and academic expectations."
+        },
+        {
+          "image": "/uploads/imp/team5.avif",
+          "name": "Samjhana Dangol",
+          "role": "Instructor",
+          "description": "Rekha specializes in beginner-level Japanese and offers step-by-step support to students starting their language journey. Her patience and interactive lessons create a strong foundation for future success."
+        },
+        {
+          "image": "/uploads/imp/team6.avif",
+          "name": "Bhawana Shrestha",
+          "role": "Instructor",
+          "description": "Ravi focuses on JLPT preparation and conversational fluency. His modern teaching methods, including roleplays and situational learning, equip students with practical communication skills needed in Japan."
+        },
+        {
+          "image": "/uploads/imp/team7.avif",
+          "name": "Sujan Dangol",
+          "role": "Instructor",
+          "description": "A native Japanese speaker and cultural liaison, Nami offers insights into daily life, etiquette, and communication practices in Japan. She helps students gain cultural confidence in addition to language fluency."
+        },
+        {
+          "image": "/uploads/imp/team7.avif",
+          "name": "Madhav Ghising",
+          "role": "Instructor",
+          "description": "A native Japanese speaker and cultural liaison, Nami offers insights into daily life, etiquette, and communication practices in Japan. She helps students gain cultural confidence in addition to language fluency."
+        }
+      ]
+    },
     "uni": {
       "heading": "注目の大学",
       "subheading": "当校が提携する名門大学をご紹介します。当校の大学ネットワークは、質の高い教育と世界的な認知度を保証します."
