@@ -1,12 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll } from "framer-motion";
-import img1 from "../../../assets/Images/img02.avif";
-import img2 from "../../../assets/Images/about2.png";
-import img3 from "../../../assets/Images/img3.jpeg";
 import SmallerServicesContent from "./SmallerServicesContent";
 import { useTranslation } from "react-i18next";
 
-const serviceImages = [img1, img2, img3, img1, img3, img3]; // repeat or update as needed
+const serviceImages = [
+  "uploads/img02.avif",
+  "uploads/about2.png",
+  "uploads/img3.jpeg",
+  "uploads/img02.avif",
+  "uploads/about2.png",
+  "uploads/img3.jpeg",
+]; // repeat or update as needed
 
 export default function ServicesContent() {
   const containerRef = useRef(null);

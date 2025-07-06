@@ -1,15 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
-import unimg1 from "../../assets/Images/img02.avif";
-import unimg2 from "../../assets/Images/img5.jpeg";
-import unimg3 from "../../assets/Images/img5.jpeg";
 import { div } from "framer-motion/client";
 import { useTranslation } from "react-i18next";
 // Mock images
 
-const img1 = unimg1;
-const img2 = unimg2;
-const img3 = unimg3;
+const img1 = "/uploads/img02.avif";
+const img2 = "/uploads/img5.jpeg";
+const img3 = "/uploads/img5.jpeg";
 
 const listOfUni = [
   { name: "Nagoya University", logo: img1 },

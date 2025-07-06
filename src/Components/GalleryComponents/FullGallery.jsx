@@ -9,10 +9,9 @@ export default function FullGallery() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(null);
   const { t } = useTranslation();
-  const imageModules = import.meta.glob(
-    "../../assets/Images/*.{jpeg,jpg,avif,mp4}",
-    { eager: true }
-  );
+  const imageModules = import.meta.glob("/uploads/*.{jpeg,jpg,avif,mp4}", {
+    eager: true,
+  });
 
   const mediaFiles = Object.entries(imageModules).map(([path, mod]) => {
     const ext = path.split(".").pop();

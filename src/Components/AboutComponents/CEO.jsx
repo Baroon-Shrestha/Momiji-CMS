@@ -1,5 +1,4 @@
 import React from "react";
-import ceoImg from "../../assets/CEO.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function CEO() {
@@ -43,7 +42,7 @@ export default function CEO() {
         {/* CEO Image - Floated to create text wrap */}
         <div className="float-left w-80 h-96 mr-8 mb-6 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
           <img
-            src={ceoImg}
+            src="/uploads/CEO.jpg"
             alt="CEO Jitendra"
             className="w-full h-full object-cover"
           />

@@ -1,10 +1,5 @@
 import React from "react";
 import HeroSection from "../Components/HomeComponents/HeroSection";
-import img1 from "../assets/Images/img1.jpeg";
-import img2 from "../assets/Images/img2.jpeg";
-import img3 from "../assets/Images/img3.jpeg";
-import img4 from "../assets/Images/img4.jpeg";
-import img5 from "../assets/Images/img5.jpeg";
 import Introduction from "../Components/HomeComponents/Introduction";
 import Services from "../Components/HomeComponents/Services";
 import WhyChooseUS from "../Components/HomeComponents/WhyChooseUS";
@@ -13,31 +8,29 @@ import SmallGallery from "../Components/HomeComponents/SmallGallery";
 import GetInTouch from "../Components/HomeComponents/GetInTouch";
 import Testimonials from "../Components/HomeComponents/Testimonials";
 
-import patternBg from "../assets/pattern.png";
-
 const customHeroImages = [
   {
-    url: img1,
+    url: "uploads/img1.jpeg",
     title: "Start you journey with us.",
     subtitle: "Your custom subtitle description here",
   },
   {
-    url: img2,
+    url: "uploads/img2.jpeg",
     title: "Join us in your coming educational journey",
     subtitle: "Another engaging subtitle for your business",
   },
   {
-    url: img3,
+    url: "uploads/img3.jpeg",
     title: "Wnat to study in japan",
     subtitle: "Professional description of your services",
   },
   {
-    url: img4,
+    url: "uploads/img4.jpeg",
     title: "Wnat to study in japan",
     subtitle: "Professional description of your services",
   },
   {
-    url: img5,
+    url: "uploads/img5.jpeg",
     title: "Wnat to study in japan",
     subtitle: "Professional description of your services",
   },

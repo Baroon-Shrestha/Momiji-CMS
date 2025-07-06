@@ -1,7 +1,7 @@
 import React from "react";
 import { Facebook, MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import footImg from "../assets/Images/img9.jpeg";
+// import footImg from "../assets/Images/img9.jpeg";
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
@@ -97,7 +97,11 @@ export default function Footer() {
       </div>
       <div className="bg-gray-900 h-[40vh] relative">
         <div className="bg-black/60 absolute z-50 opacity-50"></div>
-        <img src={footImg} alt="" className="object-cover  h-full w-full" />
+        <img
+          src="/uploads/img9.jpeg"
+          alt=""
+          className="object-cover  h-full w-full"
+        />
 
         <div className="absolute -top-15 w-[90vw] left-6 md:left-20">
           <div className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-xl p-6 text-white">

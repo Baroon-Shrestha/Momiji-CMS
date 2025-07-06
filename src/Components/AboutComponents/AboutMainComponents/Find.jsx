@@ -1,13 +1,11 @@
 import React from "react";
-import img1 from "../../../assets/Images/img10.jpeg";
-import img2 from "../../../assets/Images/img10.jpeg";
-import img3 from "../../../assets/Images/img10.jpeg";
+
 import { div } from "framer-motion/client";
 
 const cardData = [
   {
     id: 1,
-    image: img1,
+    image: "/uploads/img10.jpeg",
     icon: "🗣️",
     title: "Japanese Language Mastery",
     description:
@@ -15,7 +13,7 @@ const cardData = [
   },
   {
     id: 2,
-    image: img2,
+    image: "/uploads/img10.jpeg",
     icon: "🎎",
     title: "Cultural Immersion Program",
     description:
@@ -23,7 +21,7 @@ const cardData = [
   },
   {
     id: 3,
-    image: img3,
+    image: "/uploads/img10.jpeg",
     icon: "💼",
     title: "Career & Study Pathway",
     description:

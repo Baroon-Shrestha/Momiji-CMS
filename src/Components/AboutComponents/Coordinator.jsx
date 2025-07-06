@@ -1,5 +1,4 @@
 import React from "react";
-import ceoImg from "../../assets/CEO.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function Coordiantor() {
@@ -12,7 +11,7 @@ export default function Coordiantor() {
         {/* Optional background image with overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1920&q=80"
+            src="/uploads/CEO.jpg"
             alt="vision background"
             className="w-full h-full object-cover opacity-20"
           />

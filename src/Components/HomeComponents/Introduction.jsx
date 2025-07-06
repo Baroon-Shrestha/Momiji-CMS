@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../../assets/Images/img1.jpeg";
 import { useTranslation } from "react-i18next";
 import { useCmsContent } from "../../Hooks/useCmsContent";
 
@@ -37,7 +36,7 @@ export default function Introduction() {
         </div>
 
         <img
-          src={img1}
+          src="/uploads/img1.jpeg"
           alt="Momiji Academy"
           className="w-full h-[60vh] sm:h-[65vh] md:h-[70vh] object-cover object-bottom rounded-2xl"
         />

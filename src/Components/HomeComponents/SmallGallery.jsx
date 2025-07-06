@@ -1,19 +1,15 @@
 import React from "react";
-import img1 from "../../assets/Images/img1.jpeg";
-import img2 from "../../assets/Images/img2.jpeg";
-import img3 from "../../assets/Images/img3.jpeg";
-import img4 from "../../assets/Images/img4.jpeg";
-import img5 from "../../assets/Images/img5.jpeg";
+
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 export default function SmallGallery() {
   const { t } = useTranslation();
   const imageGrid = [
-    [img1, img2, img5],
-    [img3, img4, img5],
-    [img1, img2, img3],
-    [img4, img5, img1],
+    ["uploads/img1.jpeg", "uploads/img2.jpeg", "uploads/img3.jpeg"],
+    ["uploads/img1.jpeg", "uploads/img2.jpeg", "uploads/img3.jpeg"],
+    ["uploads/img4.jpeg", "uploads/img5.jpeg", "uploads/img1.jpeg"],
+    ["uploads/img4.jpeg", "uploads/img5.jpeg", "uploads/img1.jpeg"],
   ];
 
   return (

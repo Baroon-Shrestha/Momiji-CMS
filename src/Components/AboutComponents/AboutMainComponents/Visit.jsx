@@ -1,6 +1,4 @@
 import React from "react";
-import img1 from "../../../assets/Images/img2.jpeg";
-import img2 from "../../../assets/Images/img6.jpeg";
 export default function Visit() {
   return (
     <div className="container mx-auto my-10 px-4">
@@ -27,14 +25,14 @@ export default function Visit() {
         <div className="hidden lg:flex flex-col gap-4">
           <div className="h-[250px] overflow-hidden rounded-2xl">
             <img
-              src={img1}
+              src="/uploads/img2.jpeg"
               alt="Modern cafe seating"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>
           <div className="h-[250px] overflow-hidden rounded-2xl">
             <img
-              src={img2}
+              src="/uploads/img6.jpeg"
               alt="People enjoying coffee"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
@@ -45,12 +43,12 @@ export default function Visit() {
       {/* Mobile-only side-by-side images */}
       <div className="grid grid-cols-2 gap-4 mt-4 lg:hidden">
         <img
-          src={img1}
+          src="/uploads/img2.jpeg"
           alt="Modern cafe seating"
           className="w-full h-[170px] object-cover rounded-2xl"
         />
         <img
-          src={img2}
+          src="/uploads/img6.jpeg"
           alt="People enjoying coffee"
           className="w-full h-[170px] object-cover rounded-2xl"
         />

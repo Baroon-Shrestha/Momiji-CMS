@@ -8,11 +8,10 @@ import {
   Award,
   GraduationCap,
 } from "lucide-react";
-import heroImg from "../../../assets/Images/img2.jpeg";
-import { MessageCircle, X, Minimize2 } from "lucide-react";
-import video from "../../../assets/Images/tryout.mp4";
 
-const heroImage = heroImg;
+import { MessageCircle, X, Minimize2 } from "lucide-react";
+
+const heroImage = "uploads/img2.jpeg";
 const coffeeImage2 =
   "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop";
 const coffeeImage3 =
@@ -44,7 +43,7 @@ export default function AboutHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={heroImg}
+          src="/uploads/img2.jpeg"
           alt="Background"
           className="w-full h-full object-cover opacity-20"
         />
@@ -155,7 +154,7 @@ export default function AboutHero() {
             </button>
 
             <iframe
-              src={video}
+              src="/uploads/tryout.mp4"
               className="w-full h-[70vh] min-h-[400px]"
               allow="autoplay; fullscreen"
               title="Video Player"

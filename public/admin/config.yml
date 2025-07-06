@@ -89,3 +89,15 @@ collections:
 
           - { label: "締めくくり1", name: "intro_ending1", widget: "string" }
           - { label: "締めくくり2", name: "intro_ending2", widget: "string" }
+
+  - name: "gallery"
+    label: "Gallery"
+    label_singular: "Image"
+    folder: "src/content/gallery"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "Alt Text", name: "alt", widget: "string", required: false }

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import img from "../../assets/Images/img1.jpeg";
 
 const containerVariants = {
   hidden: {},
@@ -107,7 +106,7 @@ export default function AnimatedIntro() {
           >
             {/* Background Image */}
             <motion.img
-              src={img}
+              src="/uploads/img1.jpeg"
               alt="Intro"
               className="w-full h-full object-cover"
               variants={imageVariants}

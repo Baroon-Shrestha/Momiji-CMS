@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import ceoImg from "../../../assets/CEO.jpg";
 
 export default function Team() {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -12,7 +11,7 @@ export default function Team() {
   // Team members data
   const teamMembers = [
     {
-      image: ceoImg,
+      image: "/uploads/CEO.jpg",
       name: "Jitendra Shrestha",
       role: "CEO & Founder",
       description:

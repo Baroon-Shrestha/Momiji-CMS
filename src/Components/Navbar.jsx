@@ -18,7 +18,6 @@ import {
   User,
 } from "lucide-react";
 
-import logo from "../assets/logo2.png";
 import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
@@ -70,7 +69,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <NavLink to="/" onClick={() => setMenuOpen(false)} className="group">
             <img
-              src={logo}
+              src="/uploads/logo2.png"
               alt=""
               className="h-[7vh] md:h-[10vh] transition-transform duration-300 group-hover:scale-105"
             />
