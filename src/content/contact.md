@@ -1,5 +1,5 @@
 ---
-phone: "+977-98XXXXXXXX"
-email: "info@momiji.com"
-location: "Samakhushi-10, Kathmandu"
+phone: +977-9818739823
+email: info@momiji.com
+location: Samakhushi-10, Kathmandu
 ---
