@@ -98,7 +98,7 @@ collections:
 
   - name: "contact"
     label: "Contact Info"
-    file: "src/content/contact.md"
+    file: "/src/content/contact.md"
     fields:
       - { label: "Phone", name: "phone", widget: "string" }
       - { label: "Email", name: "email", widget: "string" }
