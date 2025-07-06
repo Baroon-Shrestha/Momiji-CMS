@@ -1,7 +1,7 @@
 ---
-name: Jitendra k. Shrestha
+name: Jitendra Shrestha
 role: CEO & Founder
-image: https://ucarecdn.com/7b9d192d-75b0-4102-9c6a-8f9eb728865b/
+image: "uploads/CEO.jpg"
 description: With a deep passion for education and global opportunities,
   Jitendra founded our consultancy to guide students towards a successful future
   in Japan. With over 15 years of experience in the international education
