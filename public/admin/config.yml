@@ -21,7 +21,6 @@ collections:
           - { label: "Hero Opening", name: "hero_opening", widget: "string" }
           - { label: "Hero Title", name: "hero_title", widget: "string" }
           - { label: "Hero Button Text", name: "hero_button", widget: "string" }
-
           - {
               label: "Intro Heading 1",
               name: "intro_heading1",
@@ -37,7 +36,6 @@ collections:
               name: "intro_subheading",
               widget: "string",
             }
-
           - {
               label: "Intro Paragraph 1",
               name: "intro_paragraph1",
@@ -48,7 +46,6 @@ collections:
               name: "intro_paragraph2",
               widget: "text",
             }
-
           - { label: "Intro Ending 1", name: "intro_ending1", widget: "string" }
           - { label: "Intro Ending 2", name: "intro_ending2", widget: "string" }
 
@@ -67,7 +64,6 @@ collections:
               name: "hero_button",
               widget: "string",
             }
-
           - {
               label: "イントロ見出し1",
               name: "intro_heading1",
@@ -83,10 +79,8 @@ collections:
               name: "intro_subheading",
               widget: "string",
             }
-
           - { label: "イントロ段落1", name: "intro_paragraph1", widget: "text" }
           - { label: "イントロ段落2", name: "intro_paragraph2", widget: "text" }
-
           - { label: "締めくくり1", name: "intro_ending1", widget: "string" }
           - { label: "締めくくり2", name: "intro_ending2", widget: "string" }
 
@@ -109,5 +103,10 @@ collections:
       - { label: "Phone", name: "phone", widget: "string" }
       - { label: "Email", name: "email", widget: "string" }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Map Link", name: "map_link", widget: "string" }
+      - {
+          label: "Map Link",
+          name: "map_link",
+          widget: "string",
+          required: false,
+        }
       - { label: "Map Embed (iframe)", name: "map_embed", widget: "text" }
