@@ -3,16 +3,24 @@ import { Facebook, MessageCircle, Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 // import footImg from "../assets/Images/img9.jpeg";
 import { useTranslation } from "react-i18next";
+import fm from "front-matter";
+
+// Load contact markdown
+const rawContact = import.meta.glob("/src/content/contact.md", {
+  eager: true,
+  as: "raw",
+});
+const { attributes } = fm(Object.values(rawContact)[0]);
 
 export default function Footer() {
   const { t } = useTranslation();
 
   const handleCallClick = () => {
-    window.open("tel:+977-98XXXXXXXX", "_self");
+    window.open(`tel:${attributes.phone}`, "_self");
   };
 
   const handleEmailClick = () => {
-    window.open("mailto:momijiinepal@gmail.com", "_self");
+    window.open(`mailto:${attributes.email}`, "_self");
   };
 
   return (
@@ -73,18 +81,18 @@ export default function Footer() {
                   </p>
                   <li className="mb-1 flex items-center gap-2 text-gray-300">
                     <Phone size={16} />
-                    <span>+977 98XXXXXXXX</span>
+                    <span>{attributes.phone}</span>
                   </li>
                   <li
                     className="mb-1 flex items-center gap-2 text-gray-300"
                     onClick={handleEmailClick}
                   >
                     <Mail size={16} />
-                    <span>momijiinepal@gmail.com</span>
+                    <span>{attributes.email}</span>
                   </li>
                   <li className="mb-1 flex items-center gap-2 text-gray-300">
                     <MapPin size={16} />
-                    <span>SamaKhusi-10, Kathmandu</span>
+                    <span>{attributes.location}</span>
                   </li>
                 </div>
               </div>

@@ -18,48 +18,42 @@ export default function Team() {
         "Visionary leader with over 15 years of experience in building successful teams and driving innovation. John's passion for excellence and commitment to quality has shaped our company culture from day one. He believes in empowering every team member to reach their full potential. With a background in strategic planning and business development, John has led our company through multiple successful expansions and continues to inspire our team with his forward-thinking approach. His dedication to creating a positive work environment and fostering professional growth has made our company a place where talented individuals thrive and contribute to our collective success.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/uploads/imp/team2.avif",
       name: "Sarah Mitchell",
       role: "Front Desk Officer",
       description:
         "The friendly face that welcomes everyone with a warm smile. Sarah ensures every visitor feels at home and manages our front operations with exceptional attention to detail and customer service excellence. Her organizational skills and ability to multitask make her an invaluable member of our team. Sarah has implemented several customer service improvements that have significantly enhanced our client satisfaction ratings. She coordinates with various departments to ensure smooth operations and maintains detailed records of all visitor interactions. Her professional demeanor and problem-solving abilities have earned her recognition as employee of the month multiple times.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/uploads/imp/team1.avif",
       name: "Mike Johnson",
       role: "Senior Instructor",
       description:
         "Expert instructor with a talent for making complex concepts simple and engaging. Mike's innovative teaching methods and patient approach have helped hundreds of students achieve their goals. With advanced certifications in multiple disciplines and over a decade of teaching experience, Mike has developed a unique curriculum that combines theoretical knowledge with practical application. His students consistently achieve high success rates, and many credit his mentorship as a turning point in their careers. Mike regularly attends professional development workshops to stay current with industry trends and incorporates the latest best practices into his teaching methodology.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/uploads/imp/team3.avif",
       name: "Emily Davis",
       role: "Manager",
       description:
         "Coffee artisan who transforms simple beans into extraordinary experiences. Emily's creativity and attention to detail ensure every cup tells a story of passion and perfection.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/uploads/imp/team4.avif",
       name: "David Wilson",
       role: "Instructor",
       description:
         "Strategic thinker who keeps everything running smoothly behind the scenes. David's organizational skills and problem-solving abilities ensure our team operates at peak efficiency.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/uploads/imp/team5.avif",
       name: "Lisa Brown",
       role: "Instructor",
       description:
         "Culinary artist who brings creativity and passion to every dish. Lisa's innovative approach to cooking and commitment to fresh, quality ingredients makes every meal memorable.",
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/uploads/imp/team6.avif",
       name: "Alex Garcia",
       role: "Instructor",
       description:

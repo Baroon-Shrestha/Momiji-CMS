@@ -105,14 +105,14 @@
             "content": "Personalized Counseling by Industry Professionals",
             "description": "Our experienced counselors provide tailored advice on university selection, course alignment, and visa procedures to help you achieve your study-abroad goals.",
             "icon": "🎯",
-            "image": "/visa.jpg"
+            "image": "/uploads/visa.jpg"
           },
           {
             "title": "Certified & Experienced Counselors",
             "content": "From Documentation to Interview Preparation",
             "description": "We assist with all aspects of the admission process—shortlisting institutions, preparing SOPs and LoRs, completing applications, and preparing for interviews.",
             "icon": "👨‍🎓",
-            "image": "/team.jpg"
+            "image": "/uploads/team.jpg"
           },
           {
             "title": "Transparent Workflow System",
@@ -125,21 +125,21 @@
             "content": "Accurate, Timely, Hassle-Free Processing",
             "description": "We provide complete support with visa applications, document checklists, mock interviews, and embassy guidelines—so you can proceed confidently.",
             "icon": "🏛️",
-            "image": "/partner.jpg"
+            "image": "/uploads/Momiji-1.jpg"
           },
           {
             "title": "Personalized Counselling Approach",
             "content": "Tailored Solutions for Every Student",
             "description": "From accommodation search to orientation on culture, travel, and budgeting, our pre-departure and post-arrival guidance ensures a smooth transition.",
             "icon": "🤝",
-            "image": "/conunselling.jpg"
+            "image": "/uploads/conunselling.jpg"
           },
           {
             "title": "Pre & Post Departure Support",
             "content": "Helping You Settle Abroad with Confidence",
             "description": "From accommodation search to orientation on culture, travel, and budgeting, our pre-departure and post-arrival guidance ensures a smooth transition.",
             "icon": "✈️",
-            "image": "/departure.jpg"
+            "image": "/uploads/departure.jpg"
           }
         ]
       },

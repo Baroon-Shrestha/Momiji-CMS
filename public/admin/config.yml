@@ -101,3 +101,13 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Alt Text", name: "alt", widget: "string", required: false }
+
+  - name: "contact"
+    label: "Contact Info"
+    file: "src/content/contact.md"
+    fields:
+      - { label: "Phone", name: "phone", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Map Link", name: "map_link", widget: "string" }
+      - { label: "Map Embed (iframe)", name: "map_embed", widget: "text" }
