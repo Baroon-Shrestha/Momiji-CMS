@@ -93,7 +93,7 @@ collections:
   - name: "gallery"
     label: "Gallery"
     label_singular: "Image"
-    folder: "src/content/gallery"
+    folder: "src/content/Images/gallery"
     create: true
     delete: true
     slug: "{{slug}}"
