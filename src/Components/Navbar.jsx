@@ -69,7 +69,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <NavLink to="/" onClick={() => setMenuOpen(false)} className="group">
             <img
-              src="/uploads/logo2.png"
+              src="/uploads/imp/logo2.png"
               alt=""
               className="h-[7vh] md:h-[10vh] transition-transform duration-300 group-hover:scale-105"
             />
