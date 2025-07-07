@@ -3,7 +3,7 @@ members:
   - name_en: Jitendra Shrestha
     name_ja: ジテンドラ・シュレスタ
     role_en: CEO
-    role_ja: CEO & Founder
+    role_ja: CEO
     image: /uploads/CEO.jpg
     description_en: With a deep passion for education and global opportunities,
       Jitendra founded our consultancy to guide students towards a successful

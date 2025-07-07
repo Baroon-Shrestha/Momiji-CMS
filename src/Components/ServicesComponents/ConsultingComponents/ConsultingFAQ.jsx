@@ -1,34 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Accordion from "../../HelperComponents/Accordion";
 import { Award, BookOpen, Globe } from "lucide-react";
+import { useFaqSection } from "../../../Hooks/useFaqContent";
 
 export default function ConsultingFAQ() {
-  const [accordion, setAccordion] = useState([
-    {
-      id: 1,
-      title: "Do I need to know Japanese to study in Japan?",
-      description:
-        "Not necessarily. Many programs offer courses in English, but knowing Japanese is definitely a plus.",
-      isOpen: false,
-    },
+  const { faqs } = useFaqSection("faq3");
+  const [accordion, setAccordion] = useState([]);
 
-    {
-      id: 2,
-      title: "How long does the application process take?",
-      description:
-        "It usually takes 3 to 6 months, including counseling, application, and visa processing.",
-
+  useEffect(() => {
+    // Map loaded FAQs into accordion format with IDs and initial isOpen state
+    const formatted = faqs.map((item, index) => ({
+      id: index + 1,
+      title: item.title,
+      description: item.description,
       isOpen: false,
-    },
-    {
-      id: 3,
-      title: "Can I apply without IELTS?",
-      description:
-        "Some institutions in Japan accept students without IELTS, especially if the medium of instruction was English.",
+    }));
+    setAccordion(formatted);
+  }, [faqs]);
 
-      isOpen: false,
-    },
-  ]);
   const toggleAccordion = (accordionId) => {
     const updatedAccordions = accordion.map((accord) =>
       accord.id === accordionId

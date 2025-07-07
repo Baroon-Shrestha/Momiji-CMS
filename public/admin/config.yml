@@ -144,3 +144,111 @@ collections:
                   name: "description_ja",
                   widget: "text",
                 }
+
+  - name: "faq1_services"
+    label: "FAQ - Services Section"
+    files:
+      - label: "FAQ1 (English)"
+        name: "faq1_en"
+        file: "src/content/faq/faq1/faq1.en.md"
+        fields:
+          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+      - label: "FAQ1（日本語）"
+        name: "faq1_ja"
+        file: "src/content/faq/faq1/faq1.ja.md"
+        fields:
+          - { label: "言語", name: "lang", widget: "hidden", default: "ja" }
+          - label: "よくある質問"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "質問タイトル", name: "title", widget: "string" }
+              - { label: "説明", name: "description", widget: "text" }
+
+  - name: "faq2_scholarship"
+    label: "FAQ - Scholarship Section"
+    files:
+      - label: "FAQ2 (English)"
+        name: "faq2_en"
+        file: "src/content/faq/faq2/faq2.en.md"
+        fields:
+          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+      - label: "FAQ2（日本語）"
+        name: "faq2_ja"
+        file: "src/content/faq/faq2/faq2.ja.md"
+        fields:
+          - { label: "言語", name: "lang", widget: "hidden", default: "ja" }
+          - label: "よくある質問"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "質問タイトル", name: "title", widget: "string" }
+              - { label: "説明", name: "description", widget: "text" }
+
+  - name: "faq3_consulting"
+    label: "FAQ - Consulting Section"
+    files:
+      - label: "FAQ3 (English)"
+        name: "faq3_en"
+        file: "src/content/faq/faq3/faq3.en.md"
+        fields:
+          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+      - label: "FAQ3（日本語）"
+        name: "faq3_ja"
+        file: "src/content/faq/faq3/faq3.ja.md"
+        fields:
+          - { label: "言語", name: "lang", widget: "hidden", default: "ja" }
+          - label: "よくある質問"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "質問タイトル", name: "title", widget: "string" }
+              - { label: "説明", name: "description", widget: "text" }
+
+  - name: "faq4_general"
+    label: "FAQ - General Section"
+    files:
+      - label: "FAQ4 (English)"
+        name: "faq4_en"
+        file: "src/content/faq/faq4/faq4.en.md"
+        fields:
+          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+      - label: "FAQ4（日本語）"
+        name: "faq4_ja"
+        file: "src/content/faq/faq4/faq4.ja.md"
+        fields:
+          - { label: "言語", name: "lang", widget: "hidden", default: "ja" }
+          - label: "よくある質問"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "質問タイトル", name: "title", widget: "string" }
+              - { label: "説明", name: "description", widget: "text" }
