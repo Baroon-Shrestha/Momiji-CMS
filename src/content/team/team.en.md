@@ -13,7 +13,7 @@ members:
       for every student.
   - name: Nista Dangol
     role: Co-ordinator
-    image: /uploads/imp/team1.avif
+    image: https://ucarecdn.com/b6118f2e-d90d-4f05-b4e2-50c355e54d49/
     description: Nista plays a key role in managing student applications and
       university communications. Her strong organizational skills and deep
       understanding of Japanese admission processes make her the backbone of our
