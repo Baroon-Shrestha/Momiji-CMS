@@ -13,7 +13,7 @@ members:
       for every student.
   - name: Nista Dangol
     role: Co-ordinator
-    image: https://ucarecdn.com/b6118f2e-d90d-4f05-b4e2-50c355e54d49/
+    image: /uploads/imp/team1.avif
     description: Nista plays a key role in managing student applications and
       university communications. Her strong organizational skills and deep
       understanding of Japanese admission processes make her the backbone of our
@@ -23,7 +23,8 @@ members:
   - name: Sandhaya Yonjan
     role: Front Desk Officer
     image: /uploads/imp/team2.avif
-    description: The warm and welcoming face of our consultancy, Sandhaya ensures
+    description:
+      The warm and welcoming face of our consultancy, Sandhaya ensures
       every student and visitor feels valued from the moment they walk in. She
       manages appointments, responds to inquiries, and maintains a calm and
       professional environment at the front desk, making her an essential part
@@ -31,7 +32,8 @@ members:
   - name: Jiten Shrestha
     role: Document Officer
     image: /uploads/imp/team3.avif
-    description: Jiten handles all documentation procedures with precision and care.
+    description:
+      Jiten handles all documentation procedures with precision and care.
       From preparing university applications to ensuring all visa-related
       documents are correctly compiled, he ensures every student's paperwork is
       accurate and complete. His attention to detail reduces errors and speeds
@@ -54,7 +56,8 @@ members:
   - name: Bhawana Shrestha
     role: Instructor
     image: /uploads/imp/team6.avif
-    description: Bhawana focuses on JLPT preparation and conversational fluency. Her
+    description:
+      Bhawana focuses on JLPT preparation and conversational fluency. Her
       modern teaching methods, including roleplays and situational learning,
       equip students with practical communication skills needed in Japan.
   - name: Sujan Dangol

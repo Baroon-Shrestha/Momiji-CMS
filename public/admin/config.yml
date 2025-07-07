@@ -116,30 +116,31 @@ collections:
   - name: "team"
     label: "Team Members"
     files:
-      - label: "Team (English)"
-        name: "team_en"
-        file: "src/content/team/team.en.md"
+      - label: "Unified Team"
+        name: "team_unified"
+        file: "src/content/unified_team.md"
         fields:
-          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - label: "Language"
+            name: "lang"
+            widget: "hidden"
+            default: "unified"
           - label: "Team Members"
             name: "members"
             widget: "list"
+            summary: "{{fields.name_en}} / {{fields.name_ja}}"
             fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Name (English)", name: "name_en", widget: "string" }
+              - { label: "Name (Japanese)", name: "name_ja", widget: "string" }
+              - { label: "Role (English)", name: "role_en", widget: "string" }
+              - { label: "Role (Japanese)", name: "role_ja", widget: "string" }
               - { label: "Image", name: "image", widget: "image" }
-              - { label: "Description", name: "description", widget: "text" }
-
-      - label: "チーム（日本語）"
-        name: "team_ja"
-        file: "src/content/team/team.ja.md"
-        fields:
-          - { label: "言語", name: "lang", widget: "hidden", default: "ja" }
-          - label: "チームメンバー"
-            name: "members"
-            widget: "list"
-            fields:
-              - { label: "名前", name: "name", widget: "string" }
-              - { label: "役職", name: "role", widget: "string" }
-              - { label: "画像", name: "image", widget: "image" }
-              - { label: "説明", name: "description", widget: "text" }
+              - {
+                  label: "Description (English)",
+                  name: "description_en",
+                  widget: "text",
+                }
+              - {
+                  label: "Description (Japanese)",
+                  name: "description_ja",
+                  widget: "text",
+                }

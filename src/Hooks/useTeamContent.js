@@ -3,19 +3,27 @@ import { useEffect, useState } from "react";
 import frontMatter from "front-matter";
 import { useTranslation } from "react-i18next";
 
-// Static imports (for Vite raw load)
-import enRaw from "../content/team/team.en.md?raw";
-import jaRaw from "../content/team/team.ja.md?raw";
+// Static import (unified markdown with both languages)
+import unifiedRaw from "../content/unified_team.md?raw";
 
 export const useTeamContent = () => {
   const { i18n } = useTranslation();
-  const [content, setContent] = useState({ members: [] });
+  const [members, setMembers] = useState([]);
 
   useEffect(() => {
-    const raw = i18n.language === "ja" ? jaRaw : enRaw;
-    const parsed = frontMatter(raw);
-    setContent(parsed.attributes);
+    const parsed = frontMatter(unifiedRaw);
+    const lang = i18n.language === "ja" ? "ja" : "en";
+
+    const mapped =
+      parsed.attributes.members?.map((member) => ({
+        name: member[`name_${lang}`],
+        role: member[`role_${lang}`],
+        description: member[`description_${lang}`],
+        image: member.image,
+      })) || [];
+
+    setMembers(mapped);
   }, [i18n.language]);
 
-  return content;
+  return { members };
 };
