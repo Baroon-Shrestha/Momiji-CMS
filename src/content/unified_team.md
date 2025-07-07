@@ -30,7 +30,8 @@ members:
     role_en: Front Desk Officer
     role_ja: Front Desk Officer
     image: /uploads/imp/team2.avif
-    description_en: The warm and welcoming face of our consultancy, Sandhaya ensures
+    description_en:
+      The warm and welcoming face of our consultancy, Sandhaya ensures
       every student and visitor feels valued from the moment they walk in. She
       manages appointments, responds to inquiries, and maintains a calm and
       professional environment at the front desk, making her an essential part
@@ -41,7 +42,8 @@ members:
     role_en: Document Officer
     role_ja: Document Officer
     image: /uploads/imp/team3.avif
-    description_en: Jiten handles all documentation procedures with precision and
+    description_en:
+      Jiten handles all documentation procedures with precision and
       care. From preparing university applications to ensuring all visa-related
       documents are correctly compiled, he ensures every student's paperwork is
       accurate and complete. His attention to detail reduces errors and speeds
@@ -52,7 +54,8 @@ members:
     role_en: Cheif Marketing Officer
     role_ja: Cheif Marketing Officer
     image: /uploads/imp/team4.avif
-    description_en: Nishan brings over a decade of experience in Japanese language
+    description_en:
+      Nishan brings over a decade of experience in Japanese language
       education. His engaging teaching style and practical approach have helped
       hundreds of students pass language proficiency tests and adapt smoothly to
       life in Japan. He also guides students in understanding Japanese culture
@@ -73,7 +76,8 @@ members:
     role_en: Instructor
     role_ja: Instructor
     image: /uploads/imp/team6.avif
-    description_en: Bhawana focuses on JLPT preparation and conversational fluency.
+    description_en:
+      Bhawana focuses on JLPT preparation and conversational fluency.
       Her modern teaching methods, including roleplays and situational learning,
       equip students with practical communication skills needed in Japan.
     description_ja: バワナは、JLPT対策と会話の流暢さに重点を置いています。ロールプレイや状況学習といった現代的な指導法を通して、生徒は日本で必要とされる実践的なコミュニケーションスキルを身につけることができます。
@@ -92,7 +96,8 @@ members:
     role_en: Instructor
     role_ja: Instructor
     image: /uploads/imp/team7.avif
-    description_en: A native Japanese speaker and cultural liaison, Madhav offers
+    description_en:
+      A native Japanese speaker and cultural liaison, Madhav offers
       insights into daily life, etiquette, and communication practices in Japan.
       He helps students gain cultural confidence in addition to language
       fluency.

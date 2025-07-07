@@ -124,6 +124,30 @@ export default function FAQues() {
         "Yes, in most cases you can apply for multiple scholarships, but you may only accept one major financial aid offer. We help you prioritize high-value scholarships and understand their terms so you don’t miss better opportunities while applying.",
       isOpen: false,
     },
+    {
+      id: 18,
+      title: "Do I need to know Japanese to study in Japan?",
+      description:
+        "Not necessarily. Many programs offer courses in English, but knowing Japanese is definitely a plus.",
+      isOpen: false,
+    },
+
+    {
+      id: 19,
+      title: "How long does the application process take?",
+      description:
+        "It usually takes 3 to 6 months, including counseling, application, and visa processing.",
+
+      isOpen: false,
+    },
+    {
+      id: 20,
+      title: "Can I apply without IELTS?",
+      description:
+        "Some institutions in Japan accept students without IELTS, especially if the medium of instruction was English.",
+
+      isOpen: false,
+    },
   ]);
   const toggleAccordion = (accordionId) => {
     const updatedAccordions = accordion.map((accord) =>
