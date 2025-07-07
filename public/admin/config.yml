@@ -106,13 +106,40 @@ collections:
           - { label: "Phone", name: "phone", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Location", name: "location", widget: "string" }
+          - {
+              label: "Google Maps Embed",
+              name: "map_iframe",
+              widget: "text",
+              pattern: [".*iframe.*", "Must be a valid iframe embed"],
+            }
+
   - name: "team"
     label: "Team Members"
-    folder: "src/content/team"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Role", name: "role", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Description", name: "description", widget: "text" }
+    files:
+      - label: "Team (English)"
+        name: "team_en"
+        file: "src/content/team/team.en.md"
+        fields:
+          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - label: "Team Members"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+
+      - label: "チーム（日本語）"
+        name: "team_ja"
+        file: "src/content/team/team.ja.md"
+        fields:
+          - { label: "言語", name: "lang", widget: "hidden", default: "ja" }
+          - label: "チームメンバー"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "名前", name: "name", widget: "string" }
+              - { label: "役職", name: "role", widget: "string" }
+              - { label: "画像", name: "image", widget: "image" }
+              - { label: "説明", name: "description", widget: "text" }

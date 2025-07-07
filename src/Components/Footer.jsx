@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 // import footImg from "../assets/Images/img9.jpeg";
 import { useTranslation } from "react-i18next";
 import fm from "front-matter";
+import toast from "react-hot-toast";
 
 // Load contact markdown
 const rawContact = import.meta.glob("/src/content/contact.md", {
@@ -16,11 +17,24 @@ export default function Footer() {
   const { t } = useTranslation();
 
   const handleCallClick = () => {
-    window.open(`tel:${attributes.phone}`, "_self");
+    const phoneNumber = attributes.phone;
+
+    navigator.clipboard
+      .writeText(phoneNumber)
+      .then(() => {
+        toast.success("Phone number copied to clipboard!");
+      })
+      .catch(() => {
+        toast.error("Failed to copy phone number.");
+      });
   };
 
   const handleEmailClick = () => {
     window.open(`mailto:${attributes.email}`, "_self");
+  };
+
+  const handleDirectionsClick = () => {
+    window.open(attributes.map_link, "_blank");
   };
 
   return (
@@ -81,18 +95,30 @@ export default function Footer() {
                   </p>
                   <li className="mb-1 flex items-center gap-2 text-gray-300">
                     <Phone size={16} />
-                    <span>{attributes.phone}</span>
+                    <button
+                      onClick={handleCallClick}
+                      className="text-white hover:text-amber-600 transition-colors duration-200"
+                    >
+                      {attributes.phone}
+                    </button>
                   </li>
-                  <li
-                    className="mb-1 flex items-center gap-2 text-gray-300"
-                    onClick={handleEmailClick}
-                  >
+                  <li className="mb-1 flex items-center gap-2 text-gray-300">
                     <Mail size={16} />
-                    <span>{attributes.email}</span>
+                    <button
+                      onClick={handleEmailClick}
+                      className="text-white hover:text-amber-600 transition-colors duration-200"
+                    >
+                      {attributes.email}
+                    </button>
                   </li>
                   <li className="mb-1 flex items-center gap-2 text-gray-300">
                     <MapPin size={16} />
-                    <span>{attributes.location}</span>
+                    <button
+                      onClick={handleDirectionsClick}
+                      className="text-white hover:text-amber-600 transition-colors duration-200"
+                    >
+                      {attributes.location}
+                    </button>
                   </li>
                 </div>
               </div>

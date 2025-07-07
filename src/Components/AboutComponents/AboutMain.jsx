@@ -8,10 +8,10 @@ import Visit from "./AboutMainComponents/Visit";
 export default function AboutMain() {
   return (
     <>
+      <Team />
       <AboutHero />
       <OurVision />
       <Find />
-      <Team />
       <Visit />
     </>
   );

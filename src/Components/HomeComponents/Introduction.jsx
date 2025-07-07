@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useCmsContent } from "../../Hooks/useCmsContent";
 
 export default function Introduction() {
-  const { t } = useTranslation(); // 👈 ADD THIS
+  const { t } = useTranslation();
   const content = useCmsContent();
   return (
     <div className="container mx-auto my-12 px-4">

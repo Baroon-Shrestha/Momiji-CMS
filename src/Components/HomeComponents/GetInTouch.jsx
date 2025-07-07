@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   MapPin,
   Phone,
@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import fm from "front-matter";
+import toast from "react-hot-toast";
 
 // Load contact markdown
 const rawContact = import.meta.glob("/src/content/contact.md", {
@@ -21,7 +22,16 @@ export default function GetInTouch() {
   const { t } = useTranslation();
 
   const handleCallClick = () => {
-    window.open(`tel:${attributes.phone}`, "_self");
+    const phoneNumber = attributes.phone;
+
+    navigator.clipboard
+      .writeText(phoneNumber)
+      .then(() => {
+        toast.success("Phone number copied to clipboard!");
+      })
+      .catch(() => {
+        toast.error("Failed to copy phone number.");
+      });
   };
 
   const handleEmailClick = () => {
@@ -70,6 +80,7 @@ export default function GetInTouch() {
               </div>
 
               {/* Phone */}
+
               <div className="bg-white rounded-xl p-4 shadow-sm border hover:shadow-md transition">
                 <div className="flex items-start gap-4">
                   <div className="bg-green-100 p-2 rounded-lg">
@@ -81,7 +92,8 @@ export default function GetInTouch() {
                     </h3>
                     <button
                       onClick={handleCallClick}
-                      className="text-gray-600 hover:text-green-600 transition-colors duration-200"
+                      className="text-gray-600 hover:text-green-600 transition-colors duration-200 text-left"
+                      title="Click to copy"
                     >
                       {attributes.phone}
                     </button>

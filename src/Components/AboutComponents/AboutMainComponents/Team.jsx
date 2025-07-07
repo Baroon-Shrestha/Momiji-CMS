@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
+import { useTeamContent } from "../../../Hooks/useTeamContent";
+import { useRef } from "react";
 export default function Team() {
   const [currentSlide, setCurrentSlide] = useState(1);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -9,8 +10,11 @@ export default function Team() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(null);
   const { t } = useTranslation();
-  // Team members data
-  const teamMembers = t("home.team.members", { returnObjects: true });
+  const autoplayRef = useRef();
+
+  // const teamMembers = t("home.team.members", { returnObjects: true });
+  // const teamContent = useTeamContent();
+  const { members: teamMembers = [] } = useTeamContent();
 
   const openModal = (index) => {
     setSelectedIndex(index);
@@ -47,35 +51,44 @@ export default function Team() {
 
   // Reset animation state after transition
   useEffect(() => {
+    autoplayRef.current = setInterval(() => {
+      setDirection(1);
+      setCurrentSlide((prev) => (prev + 1) % teamMembers.length);
+      setIsAnimating(true);
+    }, 4000);
+
+    return () => clearInterval(autoplayRef.current);
+  }, [teamMembers.length]);
+
+  useEffect(() => {
+    if (!isAnimating) return;
     const timer = setTimeout(() => {
       setIsAnimating(false);
     }, 700);
     return () => clearTimeout(timer);
-  }, [currentSlide]);
-
-  // Auto-play functionality
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (!isAnimating) {
-        nextSlide();
-      }
-    }, 4000);
-    return () => clearInterval(interval);
   }, [isAnimating]);
 
   const getVisibleCards = () => {
     const cards = [];
-    // Show more cards for smooth sliding effect
+
+    if (!teamMembers || teamMembers.length === 0) return cards;
+
     for (let i = -2; i <= 2; i++) {
-      const index =
-        (currentSlide + i + teamMembers.length) % teamMembers.length;
+      const base = currentSlide ?? 0;
+      const index = (base + i + teamMembers.length) % teamMembers.length;
+
+      // Guard against invalid data
+      const member = teamMembers[index];
+      if (!member) continue;
+
       cards.push({
-        ...teamMembers[index],
+        ...member,
         position: i,
-        index: index,
-        key: `${index}`,
+        index,
+        key: `${index}-${member.name}`, // <- now guaranteed unique
       });
     }
+
     return cards;
   };
 
