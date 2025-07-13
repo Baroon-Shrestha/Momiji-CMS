@@ -62,10 +62,11 @@ export default function Footer() {
                   {t("nav.about")}
                 </h3>
                 <p className="text-gray-300">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque est repellat amet a reprehenderit rerum aut similique,
-                  architecto, alias earum consectetur consequatur beatae
-                  voluptates sit repellendus voluptas magni molestiae facilis?
+                  Momiji International Academy warmly welcomes you to a place
+                  where dreams take flight and futures are shaped. As an
+                  institution committed to guiding students on their journey to
+                  Japan, we provide expert support in education, language
+                  training, cultural adaptation, and career development.
                 </p>
               </div>
               <div className="flex items-center justify-between gap-8">

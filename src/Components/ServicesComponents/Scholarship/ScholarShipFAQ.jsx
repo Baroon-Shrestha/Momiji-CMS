@@ -38,9 +38,8 @@ export default function FAQ() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-extralight">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            ullam velit nihil eaque modi nemo distinctio id veniam, quae
-            incidunt.
+            Opportunities for Your Future: Everything You Need to Know About
+            Scholarships and Financial Aid
           </p>
         </div>
         <div className="space-y-2">

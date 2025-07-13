@@ -4,8 +4,7 @@ export default function Visit() {
     <div className="container mx-auto my-10 px-4">
       <div className="text-4xl font-extrabold mb-4">Visit Us</div>
       <div className="font-extralight text-xl max-w-2xl mb-8">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis,
-        molestias itaque dolores laudantium asperiores iure eos vero corrupti
+        Come Meet Us: Your Pathway to Studying in Japan Starts Here
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

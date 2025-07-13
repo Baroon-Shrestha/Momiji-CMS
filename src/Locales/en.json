@@ -53,7 +53,7 @@
       "ending2": "Your journey to Japan begins at Momiji."
     },
     "services": {
-      "heading": "Our Main Services",
+      "heading": "Our Core Services",
       "subheading": "Discover our comprehensive suite of educational services designed to empower your learning journey and unlock your full potential.",
       "buttons": {
         "explore": "Explore Other Services",
@@ -61,36 +61,36 @@
       },
       "items": [
         {
-          "title": "Academic Excellence Programs",
-          "description": "High-level guidance and performance-driven learning to unlock your full potential."
+          "title": "One-on-One Career Counseling",
+          "description": "Personalized guidance to help students choose the right academic or professional path based on their interests and goals."
         },
         {
-          "title": "Comprehensive Learning Resources",
-          "description": "Access to vast digital and physical learning tools for immersive education."
+          "title": "Japanese Language Training (JLPT/NAT)",
+          "description": "Certified training programs from N5 to N1 level, focused on clearing JLPT, NAT, and language exams required for Japanese institutions."
         },
         {
-          "title": "Expert Teaching Methodology",
-          "description": "Trained faculty delivering modern pedagogy with personalized attention."
+          "title": "University & College Admissions Support",
+          "description": "Complete support with documentation, application forms, essays, and communication with Japanese schools and universities."
         },
         {
-          "title": "Digital Learning Platform",
-          "description": "24/7 access to interactive course materials and cutting-edge technology."
+          "title": "Specified Skilled Worker (SSW) Program Prep",
+          "description": "Special coaching for SSW candidates including language, skills, and interview preparation tailored to Japan’s labor requirements."
         },
         {
-          "title": "Hands-on Experience",
-          "description": "Practical knowledge through real-world experimentation and research."
+          "title": "Visa Application & CoE Processing",
+          "description": "Step-by-step assistance with student visa application and Certificate of Eligibility (CoE) documentation and tracking."
         },
         {
-          "title": "Certified Learning Pathways",
-          "description": "Structured courses leading to globally recognized certifications."
+          "title": "Scholarship Guidance",
+          "description": "Help finding and applying for Japanese scholarships such as MEXT, JASSO, and institutional grants with document and essay support."
         },
         {
-          "title": "Collaborative Study Groups",
-          "description": "Learn with your peers in guided sessions that foster teamwork."
+          "title": "Accommodation & Pre-Departure Briefing",
+          "description": "Housing arrangements and orientation sessions to prepare students for living in Japan with cultural insights."
         },
         {
-          "title": "Interactive Assessment Tools",
-          "description": "Track your progress with real-time feedback and detailed analytics."
+          "title": "Post-Arrival & Career Support",
+          "description": "Continued support after landing in Japan, including part-time job guidance, internship connections, and local assistance."
         }
       ]
     },
@@ -118,14 +118,15 @@
             "title": "Transparent Workflow System",
             "content": "No Hidden Charges, Clear Process",
             "description": "Our experts help identify and apply for relevant scholarships and assistantships, increasing your chances of receiving funding or tuition waivers.",
-            "icon": "💎"
+            "icon": "💎",
+            "image": "/uploads/Event.jpg"
           },
           {
             "title": "Partnership With Japanese Universities",
             "content": "Accurate, Timely, Hassle-Free Processing",
             "description": "We provide complete support with visa applications, document checklists, mock interviews, and embassy guidelines—so you can proceed confidently.",
             "icon": "🏛️",
-            "image": "/uploads/Momiji-1.jpg"
+            "image": "/uploads/partner.jpg"
           },
           {
             "title": "Personalized Counselling Approach",
@@ -163,7 +164,7 @@
         {
           "name": "Nista Dangol",
           "role": "Co-ordinator",
-          "image": "/uploads/imp/team1.avif",
+          "image": "/uploads/imp/Nista.jpeg",
           "description": "Nista plays a key role in managing student applications and university communications. Her strong organizational skills and deep understanding of Japanese admission processes make her the backbone of our student transition system. She ensures timely submission of all documents and supports students throughout their journey with personalized attention."
         },
         {
@@ -224,19 +225,19 @@
       "subtitle": "Discover what our students say about their transformative educational journey",
       "items": [
         {
-          "name": "ABC University",
+          "name": "University of Tokyo",
           "description": "An exceptional institution that transformed my academic journey. The quality of education, research opportunities, and networking possibilities exceeded all my expectations.",
           "student": "Sarah Johnson",
           "degree": "Computer Science"
         },
         {
-          "name": "DEF University",
+          "name": "Keio University",
           "description": "The innovation hub of the world! My experience here was nothing short of extraordinary. The entrepreneurial spirit, cutting-edge research facilities, and collaborative environment fostered my growth immensely.",
           "student": "Michael Chen",
           "degree": "Engineering"
         },
         {
-          "name": "HIJ University",
+          "name": "Waseda University",
           "description": "Where impossible becomes possible. The rigorous academic program challenged me to think differently and approach problems from multiple angles.",
           "student": "Emily Rodriguez",
           "degree": "Physics"
@@ -417,18 +418,18 @@
       "typesdata": [
         {
           "title": "Merit-Based Scholarship",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus veritatis doloremque odit, nemo quos nisi laudantium? Similique ex esse laboriosam ducimus accusamus, quasi corrupti repellendus, assumenda dicta, blanditiis eveniet aperiam aliquid ipsa cupiditate. Enim culpa ipsum quia fugit, similique suscipit alias eum aut sequi, veritatis provident, a perspiciatis voluptatem?",
-          "image": "/conunselling.jpg"
+          "description": "Merit-based scholarships are awarded to students who demonstrate exceptional academic performance. These scholarships are typically offered by universities or private organizations and can cover a significant portion of tuition fees. They aim to recognize and reward high-achieving students, helping to reduce the financial burden of studying abroad in Japan. Students with excellent grades or outstanding talents may qualify for these scholarships.",
+          "image": "/uploads/conunselling.jpg"
         },
         {
           "title": "Need-Based Scholarship",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum at itaque veniam nihil, quaerat assumenda ex qui cumque pariatur voluptatibus distinctio quia eum repellendus molestias! Libero architecto nisi neque quae consequuntur debitis! Alias ex hic, velit minus et ut, atque ad optio minima molestias officia similique amet quisquam recusandae sit!",
-          "image": "/departure.jpg"
+          "description": "Need-based scholarships are designed to assist students who require financial support to pursue their education in Japan. These scholarships are awarded based on the student's financial need and are typically intended to cover tuition fees, living expenses, and other study-related costs. Students who come from economically disadvantaged backgrounds or who are facing financial challenges may be eligible for these scholarships.",
+          "image": "/uploads/departure.jpg"
         },
         {
           "title": "Language Proficiency Scholarships",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eum vel dolores harum sint inventore explicabo saepe aspernatur mollitia, tenetur molestiae asperiores impedit. Dolorem eveniet nemo ipsam minus doloribus iusto ipsum laboriosam! Saepe, repudiandae ex quas reprehenderit voluptas pariatur molestiae amet provident totam explicabo ipsam quia, consectetur laborum assumenda error.",
-          "image": "/team.jpg"
+          "description": "Language proficiency scholarships are awarded to students who wish to study the Japanese language but may not have advanced proficiency. These scholarships typically support students who enroll in Japanese language programs to improve their language skills. They may cover tuition fees for language courses or provide additional funding to help students immerse themselves in the language and culture. Students who have passed certain Japanese language proficiency exams, like JLPT N5 or N4, may also qualify for these scholarships.",
+          "image": "/uploads/visa.jpg"
         }
       ]
     }

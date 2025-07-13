@@ -17,7 +17,7 @@ members:
     name_ja: Nista Dangol
     role_en: Co-ordinator
     role_ja: Co-ordinator
-    image: /uploads/imp/team1.avif
+    image: /uploads/imp/Nista.jpeg
     description_en: Nista plays a key role in managing student applications and
       university communications. Her strong organizational skills and deep
       understanding of Japanese admission processes make her the backbone of our
@@ -29,7 +29,7 @@ members:
     name_ja: Sandhaya Yonjan
     role_en: Front Desk Officer
     role_ja: Front Desk Officer
-    image: /uploads/imp/team2.avif
+    image: /uploads/imp/Sandhaya.jpeg
     description_en:
       The warm and welcoming face of our consultancy, Sandhaya ensures
       every student and visitor feels valued from the moment they walk in. She
@@ -41,7 +41,7 @@ members:
     name_ja: Jiten Shrestha
     role_en: Document Officer
     role_ja: Document Officer
-    image: /uploads/imp/team3.avif
+    image: /uploads/imp/Jiten.jpeg
     description_en:
       Jiten handles all documentation procedures with precision and
       care. From preparing university applications to ensuring all visa-related
@@ -53,7 +53,7 @@ members:
     name_ja: Nishan Poudel
     role_en: Cheif Marketing Officer
     role_ja: Cheif Marketing Officer
-    image: /uploads/imp/team4.avif
+    image: /uploads/imp/Nishan.jpeg
     description_en:
       Nishan brings over a decade of experience in Japanese language
       education. His engaging teaching style and practical approach have helped
@@ -65,7 +65,7 @@ members:
     name_ja: Samjhana Dangol
     role_en: Instructor
     role_ja: Instructor
-    image: /uploads/imp/team5.avif
+    image: /uploads/imp/Samjhana.png
     description_en: Samjhana specializes in beginner-level Japanese and offers
       step-by-step support to students starting their language journey. Her
       patience and interactive lessons create a strong foundation for future
@@ -75,27 +75,17 @@ members:
     name_ja: Bhawana Shrestha
     role_en: Instructor
     role_ja: Instructor
-    image: /uploads/imp/team6.avif
+    image: /uploads/imp/Bhawana2.jpeg
     description_en:
       Bhawana focuses on JLPT preparation and conversational fluency.
       Her modern teaching methods, including roleplays and situational learning,
       equip students with practical communication skills needed in Japan.
     description_ja: バワナは、JLPT対策と会話の流暢さに重点を置いています。ロールプレイや状況学習といった現代的な指導法を通して、生徒は日本で必要とされる実践的なコミュニケーションスキルを身につけることができます。
-  - name_en: Sujan Dangol
-    name_ja: Sujan Dangol
-    role_en: Instructor
-    role_ja: Instructor
-    image: /uploads/imp/team7.avif
-    description_en: Sujan is a dedicated instructor with a strong command of the
-      Japanese language and cultural understanding. He guides students in
-      mastering both spoken and written Japanese, while also preparing them to
-      navigate Japan’s social and academic environments with confidence.
-    description_ja: スジャンは、日本語と日本文化への深い理解力を持つ熱心な講師です。彼は、生徒が日本語の会話と書き言葉の両方を習得できるよう指導するとともに、自信を持って日本の社会や学術環境に対応できるよう育成します。
   - name_en: Madhav Ghising
     name_ja: Madhav Ghising
     role_en: Instructor
     role_ja: Instructor
-    image: /uploads/imp/team7.avif
+    image: /uploads/imp/Madhav.jpeg
     description_en:
       A native Japanese speaker and cultural liaison, Madhav offers
       insights into daily life, etiquette, and communication practices in Japan.

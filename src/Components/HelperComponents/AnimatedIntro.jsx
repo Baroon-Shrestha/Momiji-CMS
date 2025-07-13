@@ -1,78 +1,55 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+// Variants
 const containerVariants = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.3,
-      delayChildren: 0.5, // Delay before text starts appearing
+      staggerChildren: 0.4,
+      delayChildren: 0.5,
     },
   },
   exit: {
     opacity: 0,
-    scale: 0.8,
-    transition: {
-      duration: 0.8,
-      ease: "easeInOut",
-    },
+    scale: 0.9,
+    transition: { duration: 0.6, ease: "easeInOut" },
   },
 };
 
 const textVariants = {
-  hidden: {
-    opacity: 0,
-    y: 50,
-    scale: 0.8,
-  },
+  hidden: { opacity: 0, y: 30, scale: 0.95 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut",
-    },
+    transition: { duration: 0.8, ease: "easeOut" },
   },
 };
 
 const imageVariants = {
-  hidden: {
-    scale: 1.1,
-    opacity: 0.7,
-  },
+  hidden: { scale: 1.1, opacity: 0.7 },
   visible: {
     scale: 1,
     opacity: 1,
-    transition: {
-      duration: 1.5,
-      ease: "easeOut",
-    },
+    transition: { duration: 1.5, ease: "easeOut" },
   },
   exit: {
-    scale: 0.9,
+    scale: 0.95,
     opacity: 0,
-    transition: {
-      duration: 0.8,
-    },
+    transition: { duration: 0.6 },
   },
 };
 
 const overlayVariants = {
-  hidden: {
-    opacity: 0,
-  },
+  hidden: { opacity: 0 },
   visible: {
     opacity: 0.6,
-    transition: {
-      duration: 1,
-    },
+    transition: { duration: 1 },
   },
   exit: {
     opacity: 0,
-    transition: {
-      duration: 0.5,
-    },
+    transition: { duration: 0.5 },
   },
 };
 
@@ -81,11 +58,15 @@ export default function AnimatedIntro() {
   const [isExiting, setIsExiting] = useState(false);
 
   useEffect(() => {
-    // Show text after image loads
-    const textTimer = setTimeout(() => setShowText(true), 500);
+    // Commented out sessionStorage logic
+    const alreadyVisited = sessionStorage.getItem("momijiIntroShown");
 
-    // Start exit animation
-    const exitTimer = setTimeout(() => setIsExiting(true), 4000);
+    if (!alreadyVisited) {
+      sessionStorage.setItem("momijiIntroShown", "true");
+    }
+
+    const textTimer = setTimeout(() => setShowText(true), 500);
+    const exitTimer = setTimeout(() => setIsExiting(true), 5000);
 
     return () => {
       clearTimeout(textTimer);
@@ -112,7 +93,7 @@ export default function AnimatedIntro() {
               variants={imageVariants}
             />
 
-            {/* Dark Overlay */}
+            {/* Overlay */}
             <motion.div
               className="absolute inset-0 bg-black"
               variants={overlayVariants}
@@ -122,7 +103,7 @@ export default function AnimatedIntro() {
             <AnimatePresence>
               {showText && (
                 <motion.div
-                  className="absolute inset-0 flex flex-col items-center justify-center text-white z-10"
+                  className="absolute inset-0 flex flex-col items-center justify-center text-white z-10 px-4 text-center"
                   variants={containerVariants}
                   initial="hidden"
                   animate="visible"
@@ -130,26 +111,26 @@ export default function AnimatedIntro() {
                 >
                   <motion.h1
                     variants={textVariants}
-                    className="text-6xl md:text-7xl font-bold mb-6 text-center tracking-wide"
+                    className="text-3xl sm:text-5xl md:text-6xl font-bold mb-4 tracking-wide"
                   >
-                    Welcome
+                    Welcome to <br /> Momiji International Academy
                   </motion.h1>
 
                   <motion.h2
                     variants={textVariants}
-                    className="text-2xl md:text-3xl font-light mb-4 text-center"
+                    className="text-xl sm:text-2xl md:text-3xl font-light mb-4"
                   >
-                    to Our Experience
+                    Study, Train, and Succeed with Momiji by your side.
                   </motion.h2>
 
                   <motion.p
                     variants={textVariants}
-                    className="text-lg md:text-xl text-center max-w-2xl px-6 opacity-90"
+                    className="text-base sm:text-lg md:text-xl max-w-2xl opacity-90"
                   >
-                    Where innovation meets excellence
+                    Start your wonderful journey to Japan with us.
                   </motion.p>
 
-                  {/* Optional loading indicator */}
+                  {/* Dots */}
                   <motion.div
                     variants={textVariants}
                     className="mt-8 flex space-x-2"

@@ -8,7 +8,9 @@ export default function Contact() {
     <div>
       <ContactMain />
       <Form />
-      <GetInTouch />
+      <div className="my-12">
+        <GetInTouch />
+      </div>
     </div>
   );
 }

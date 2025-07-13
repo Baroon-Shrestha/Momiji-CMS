@@ -29,17 +29,20 @@ export default function Form() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 p-4 flex items-center justify-center py-12">
-      <div className="w-full max-w-6xl bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden flex flex-col md:flex-row">
+      <div className="w-full max-w-6xl bg-white rounded-2xl shadow-xl  overflow-hidden flex flex-col md:flex-row">
         {/* Left Content Section */}
-        <div className="hidden md:flex flex-col justify-center items-start p-8 w-full md:w-1/2 bg-gray-50 text-slate-600">
+        <div className="hidden md:flex flex-col justify-center items-start p-8 w-full md:w-1/2 bg-gray-200 text-slate-800 shadow-xl">
           <h2 className="text-3xl font-bold mb-4 capitalize text-center">
             Leave Your Contact Information and We Will reach out to you soon!!
           </h2>
-          <p className="text-lg leading-relaxed text-center font-extralight">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            iste iusto similique, assumenda ullam veniam quia eligendi doloribus
-            aliquid sunt magni quod! At quam dignissimos officia dolorem
-            laudantium autem exercitationem?
+          <p className="text-md md:text-lg leading-relaxed text-center font-extralight">
+            We understand that choosing to study abroad is a big decision, and
+            we're here to help guide you every step of the way. Whether you have
+            questions about our services, the application process, or
+            scholarships available for studying in Japan, our team is ready to
+            assist. Simply leave your contact details, and one of our
+            experienced consultants will get in touch with you as soon as
+            possible to provide the support you need.
           </p>
         </div>
 
@@ -47,7 +50,7 @@ export default function Form() {
         <div className="w-full md:w-1/2">
           <div className="bg-gradient-to-b from-[#F05A22] via-[#F78C1F] to-[#FBC21B] px-8 py-8 text-center shadow-xl">
             <h1 className="text-3xl font-bold text-white mb-2">Get In Touch</h1>
-            <p className="text-blue-100">
+            <p className="text-white">
               We're here to help you achieve your goals
             </p>
           </div>
@@ -169,7 +172,7 @@ export default function Form() {
                         value={value}
                         checked={formData.services.includes(value)}
                         onChange={handleChange}
-                        className="w-4 h-4 text-amber-600 border-gray-300 rounded focus:ring-amber-500 focus:ring-2"
+                        className="w-4 h-4 text-amber-600 border-gray-300"
                       />
                       <span className="text-sm font-medium text-gray-700">
                         {label}
@@ -184,7 +187,7 @@ export default function Form() {
             <div className="pt-4">
               <button
                 type="submit"
-                className="w-full bg-gradient-to-b from-[#F05A22] via-[#F78C1F] to-[#FBC21B] text-white py-4 rounded-xl text-base font-semibold hover:from-blue-700 hover:to-indigo-700 transform hover:scale-[1.02] transition-all duration-200 shadow-lg hover:shadow-xl"
+                className="w-full bg-gradient-to-r from-[#F05A22] via-[#F78C1F] to-[#FBC21B] text-white py-4 rounded-xl text-base font-semibold shadow-xl"
               >
                 Send Message
               </button>

@@ -1,10 +1,9 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-export default function Coordiantor() {
+export default function Coordinator() {
   const { t } = useTranslation();
-  const image =
-    "https://unsplash.com/photos/smiling-woman-wearing-white-and-black-pinstriped-collared-top-QXevDflbl8A";
+  const image = "/uploads/imp/Nista.jpeg";
   return (
     <div className="">
       <section className="relative w-full bg-gradient-to-r from-[#0F172A] via-[#1E293B] to-[#0F172A] text-white overflow-hidden">
@@ -31,21 +30,21 @@ export default function Coordiantor() {
 
       {/* Enhanced Layout with Text Wrapping */}
       <div className="relative container mx-auto my-16 px-4">
-        {/* CEO Name and Title - Positioned at top */}
+        {/* Coordinator Name and Title - Positioned at top */}
         <div className="mb-8">
           <div className="text-4xl font-extrabold text-gray-800 border-l-8 border-amber-400 pl-6 mb-2">
             Nista Dangol
           </div>
           <div className="text-2xl font-light text-amber-600 pl-6">
-            Co-ordiantion Officer
+            Coordination Officer
           </div>
         </div>
 
-        {/* CEO Image - Floated to create text wrap */}
+        {/* Coordinator Image - Floated to create text wrap */}
         <div className="float-right w-80 h-96 ml-8 mb-6 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
           <img
             src={image}
-            alt="Co-ordinator"
+            alt="Coordinator"
             className="w-full h-full object-cover"
           />
         </div>
@@ -54,63 +53,48 @@ export default function Coordiantor() {
         <div className="text-justify text-gray-700 leading-relaxed space-y-6">
           {/* First paragraph with drop cap */}
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor et
-            unde porro eius exercitationem. Deserunt facilis nihil asperiores
-            corporis reiciendis suscipit neque voluptate vitae dignissimos,
-            itaque quasi iusto, nesciunt praesentium animi ipsa commodi odio
-            minus cupiditate. Quisquam distinctio explicabo a delectus ad at,
-            eius nihil odio, inventore dicta, adipisci cupiditate ipsa
-            consequatur animi. Dolorum ipsam, culpa laboriosam nihil numquam
-            accusantium assumenda recusandae deleniti qui blanditiis amet nulla
-            fugit fuga! Facilis doloremque labore itaque commodi excepturi
-            facere veritatis sint beatae. Delectus obcaecati quas quod saepe,
-            sed aliquam est vitae nihil voluptas et laudantium esse cum rem
-            tempore? Ea nisi aut perferendis id assumenda, magnam reprehenderit
-            impedit officiis rerum? Nam sed tenetur voluptatum doloribus
-            voluptatem, molestiae aut incidunt accusantium expedita autem minima
-            a enim. Culpa porro illo aliquam magni beatae ea laudantium est
-            tempore inventore iusto deleniti odio officiis eius nostrum, cum
-            maxime reiciendis consectetur aperiam sapiente quas fugiat libero?
+            As the Coordination Officer at Momijij International Academy, my
+            role is to ensure that every aspect of the student’s journey to
+            Japan runs smoothly. From handling documentation to ensuring
+            students receive the best academic counseling, I am here to make
+            sure they are fully prepared for their educational adventure. Our
+            team works tirelessly to help students integrate into their new
+            environment in Japan while also focusing on their academic success.
           </p>
 
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            voluptates deleniti quasi porro soluta consectetur quia, et
-            dignissimos labore quas illo adipisci cupiditate laborum cumque nisi
-            blanditiis ad iste fuga voluptatum totam eos voluptas magni qui.
-            Exercitationem, dolorem adipisci debitis voluptatum quam voluptate,
-            quo reiciendis tempora doloribus, temporibus facilis inventore.
+            At Momijij, we understand the complexities of studying abroad,
+            especially in a culturally unique environment like Japan. Our goal
+            is to make the entire process—from application to post-arrival
+            support—seamless for our students. We guide them through each step
+            with care and expertise to ensure they have the best chance of
+            succeeding in their academic pursuits and adapting to life in Japan.
           </p>
 
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-            voluptas molestiae itaque aut molestias minus laborum vel asperiores
-            porro dicta omnis ex totam dolores animi a iste necessitatibus
-            corporis exercitationem, minima nulla at! Nobis doloribus illum, eos
-            fugit laboriosam totam maxime ipsa, commodi modi quia inventore
-            dicta dolor aut repellendus suscipit obcaecati delectus vitae
-            dolorem nihil corrupti eligendi perferendis a voluptatum. Earum, rem
-            amet beatae voluptatum doloremque nesciunt architecto a fugiat harum
-            exercitationem magnam saepe aperiam illo explicabo esse quae dolores
-            officia quisquam aliquam ut ipsum sit quaerat consequatur. Officiis
-            cum nostrum atque perspiciatis maiores. Excepturi quidem, ipsum
-            dolorem, adipisci aut blanditiis quod asperiores sit consequuntur
-            fuga culpa, exercitationem eius repellendus. Molestiae dolorum
-            incidunt, sequi commodi et beatae dolorem qui dolore at vero, labore
-            reprehenderit officiis necessitatibus ea excepturi repellat maiores
-            fugiat cupiditate, in expedita! Architecto, reprehenderit ullam
-            impedit vitae earum, explicabo eius qui minima quia cupiditate
-            aliquid sunt sint.
+            My mission is to provide personalized support to each student,
+            helping them navigate the administrative processes while also
+            offering cultural and emotional support. Japan is not just an
+            academic destination, it’s a place for personal growth and
+            transformation, and it is my pleasure to assist students in becoming
+            confident global citizens.
           </p>
 
           <p className="text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
-            pariatur nemo ullam, distinctio doloribus non nesciunt vitae
-            corrupti maxime eligendi explicabo ex incidunt recusandae? Voluptate
-            laudantium distinctio fugiat! Nam accusantium doloremque facere
-            impedit quibusdam ipsum maxime, nisi veniam explicabo asperiores
-            consectetur nostrum atque deserunt fuga nemo expedita? Facere,
-            eveniet maxime?
+            The coordination office ensures that students receive all the
+            necessary information and guidance, whether it is related to
+            accommodation, documentation, or even cultural immersion programs.
+            We offer ongoing support and monitor students’ progress to make sure
+            that their experience in Japan is enriching, rewarding, and
+            successful.
+          </p>
+
+          <p className="text-lg">
+            We value the trust that our students place in us, and it is our
+            commitment to ensure they receive the highest quality support
+            possible. I look forward to continuing to help students grow, both
+            academically and personally, and to be a part of their successful
+            journey in Japan.
           </p>
 
           {/* Contact Info with Enhanced Styling */}
@@ -120,10 +104,10 @@ export default function Coordiantor() {
                 <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
                 <span className="font-medium">Email:</span>
                 <a
-                  href="mailto:info@gmail.com"
+                  href="mailto:info@momijij.com"
                   className="text-amber-600 hover:text-amber-700 transition-colors"
                 >
-                  info@gmail.com
+                  info@momijij.com
                 </a>
               </div>
               <div className="hidden sm:block w-px h-6 bg-amber-300"></div>

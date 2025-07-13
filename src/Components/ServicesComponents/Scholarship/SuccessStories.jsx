@@ -10,7 +10,7 @@ const img3 =
 
 const testimonialsData = [
   {
-    name: "ABC University",
+    name: "University of Tokyo",
     logo: img1,
     description:
       "Receiving a full academic scholarship from ABC University changed my life. It not only eased the financial burden on my family but also motivated me to strive for academic excellence every single day.",
@@ -18,7 +18,7 @@ const testimonialsData = [
     degree: "Computer Science",
   },
   {
-    name: "DEF University",
+    name: "keio University",
     logo: img2,
     description:
       "The merit-based scholarship I received at DEF University allowed me to pursue my engineering dream without financial constraints. I'm beyond grateful for the support and the confidence it gave me.",
@@ -26,7 +26,7 @@ const testimonialsData = [
     degree: "Engineering",
   },
   {
-    name: "HIJ University",
+    name: "Waseda University",
     logo: img3,
     description:
       "Thanks to the international student scholarship, I was able to focus entirely on my research. HIJ University made me believe that financial barriers should never stop someone from dreaming big.",

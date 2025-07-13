@@ -38,9 +38,8 @@ export default function ConsultingFAQ() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-extralight">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
-            quae pariatur sequi esse qui nostrum quia, deleniti sint vel
-            aspernatur.
+            Expert Guidance at Every Step: Your Questions About Our Consulting
+            Services Answered
           </p>
         </div>
         <div className="space-y-2">

@@ -1,6 +1,17 @@
 import React from "react";
+import fm from "front-matter";
 
 export default function ContactMain() {
+  const rawContact = import.meta.glob("/src/content/contact.md", {
+    eager: true,
+    as: "raw",
+  });
+  const { attributes } = fm(Object.values(rawContact)[0]);
+
+  const handleEmailClick = () => {
+    window.open(`mailto:${attributes.email}`, "_self");
+  };
+
   return (
     <div>
       <section className="relative w-full bg-gradient-to-br from-[#1E293B] via-[#0F172A] to-[#1E293B] text-white py-24 overflow-hidden">
@@ -27,7 +38,10 @@ export default function ContactMain() {
           {/* Optional contact preview or button */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <div className="text-gray-300 text-sm md:text-base">
-              email us at <span className="underline">info@momijiedu.com</span>
+              <button onClick={() => handleEmailClick()}>
+                email us at{" "}
+                <span className="underline">momijiinepal@gmail.com</span>
+              </button>
             </div>
           </div>
         </div>

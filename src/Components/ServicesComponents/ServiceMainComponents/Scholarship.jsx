@@ -12,10 +12,9 @@ export default function Scholarship() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-6">
               {t("services.scholarhship.heading")}
             </h1>
-            <p className="text-lg sm:text-xl max-w-3xl mx-auto leading-relaxed font-extralight">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              beatae libero labore doloribus, ratione a nemo quae sint
-              praesentium voluptatem?
+            <p className="text-lg sm:text-xl max-w-4xl mx-auto leading-relaxed font-extralight">
+              Unlock Scholarships and Financial Aid Opportunities to Support
+              Your Dreams in Japan
             </p>
           </div>
         </div>

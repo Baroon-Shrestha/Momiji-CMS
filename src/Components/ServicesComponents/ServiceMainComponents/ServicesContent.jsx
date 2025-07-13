@@ -5,10 +5,10 @@ import { useTranslation } from "react-i18next";
 
 const serviceImages = [
   "uploads/img02.avif",
-  "uploads/about2.png",
+  "uploads/conunselling.jpg",
   "uploads/img3.jpeg",
   "uploads/img02.avif",
-  "uploads/about2.png",
+  "uploads/img7.jpeg",
   "uploads/img3.jpeg",
 ]; // repeat or update as needed
 

@@ -72,9 +72,10 @@ export default function AboutHero() {
                 </h1>
 
                 <p className="text-lg text-gray-300 leading-relaxed max-w-lg">
-                  Join thousands of coffee enthusiasts in our comprehensive
-                  classes. From bean selection to brewing perfection, discover
-                  the secrets that make exceptional coffee.
+                  Join thousands of aspiring students and professionals in our
+                  expert-led programs. From application guidance to post-arrival
+                  support in Japan, unlock the key steps to a successful
+                  educational journey abroad.
                 </p>
               </div>
 
@@ -132,9 +133,9 @@ export default function AboutHero() {
                   </div>
                 </div>
               </div>
-              <div className="absolute -bottom-10 -left-2 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-xl p-4 shadow-xl">
+              <div className="absolute -bottom-8 -left-4 bg-gradient-to-r from-orange-500 to-yellow-500 rounded-xl p-2 shadow-xl animae-bounce">
                 <div className="text-white text-center">
-                  <div className="text-2xl font-bold">98%</div>
+                  <div className="text-xl font-bold">98%</div>
                   <div className="text-sm opacity-90">Success Rate</div>
                 </div>
               </div>

@@ -52,70 +52,48 @@ export default function CEO() {
         <div className="text-justify text-gray-700 leading-relaxed space-y-6">
           {/* First paragraph with drop cap */}
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor et
-            unde porro eius exercitationem. Deserunt facilis nihil asperiores
-            corporis reiciendis suscipit neque voluptate vitae dignissimos,
-            itaque quasi iusto, nesciunt praesentium animi ipsa commodi odio
-            minus cupiditate. Quisquam distinctio explicabo a delectus ad at,
-            eius nihil odio, inventore dicta, adipisci cupiditate ipsa
-            consequatur animi. Dolorum ipsam, culpa laboriosam nihil numquam
-            accusantium assumenda recusandae deleniti qui blanditiis amet nulla
-            fugit fuga! Facilis doloremque labore itaque commodi excepturi
-            facere veritatis sint beatae. Delectus obcaecati quas quod saepe,
-            sed aliquam est vitae nihil voluptas et laudantium esse cum rem
-            tempore? Ea nisi aut perferendis id assumenda, magnam reprehenderit
-            impedit officiis rerum? Nam sed tenetur voluptatum doloribus
-            voluptatem, molestiae aut incidunt accusantium expedita autem minima
-            a enim. Culpa porro illo aliquam magni beatae ea laudantium est
-            tempore inventore iusto deleniti odio officiis eius nostrum, cum
-            maxime reiciendis consectetur aperiam sapiente quas fugiat libero?
-            Animi culpa dolorum repellendus aliquam voluptas aspernatur, aperiam
-            sequi harum praesentium labore, quod sint. Officiis, eligendi
-            consectetur? Reprehenderit distinctio dignissimos alias ducimus
-            incidunt ipsa aut animi molestias quibusdam minus exercitationem
-            excepturi eaque labore magnam, suscipit culpa. Quisquam ipsum quam
-            consectetur officiis rem doloremque officia quasi illum, maiores
-            cupiditate numquam voluptatibus nemo. Vitae!
+            Welcome to Momijij International Academy! We are truly delighted to
+            have you explore our services, designed to support students aspiring
+            to study and work in Japan. As the CEO of this esteemed consultancy,
+            I would like to personally extend a warm welcome and share a brief
+            insight into our vision, values, and working process.
           </p>
 
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-            voluptates deleniti quasi porro soluta consectetur quia, et
-            dignissimos labore quas illo adipisci cupiditate laborum cumque nisi
-            blanditiis ad iste fuga voluptatum totam eos voluptas magni qui.
-            Exercitationem, dolorem adipisci debitis voluptatum quam voluptate,
-            quo reiciendis tempora doloribus, temporibus facilis inventore.
+            Our consultancy has been dedicated to offering exceptional guidance
+            to students who are eager to embark on their academic and
+            professional journey in Japan. We have built our reputation on a
+            foundation of trust, reliability, and unparalleled expertise in
+            Japanese language training, career counseling, and visa processing.
+            Our goal is to not only help students get the necessary academic
+            qualifications but also immerse them in the rich cultural landscape
+            of Japan, making their transition smoother and more successful.
           </p>
 
           <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-            voluptas molestiae itaque aut molestias minus laborum vel asperiores
-            porro dicta omnis ex totam dolores animi a iste necessitatibus
-            corporis exercitationem, minima nulla at! Nobis doloribus illum, eos
-            fugit laboriosam totam maxime ipsa, commodi modi quia inventore
-            dicta dolor aut repellendus suscipit obcaecati delectus vitae
-            dolorem nihil corrupti eligendi perferendis a voluptatum. Earum, rem
-            amet beatae voluptatum doloremque nesciunt architecto a fugiat harum
-            exercitationem magnam saepe aperiam illo explicabo esse quae dolores
-            officia quisquam aliquam ut ipsum sit quaerat consequatur. Officiis
-            cum nostrum atque perspiciatis maiores. Excepturi quidem, ipsum
-            dolorem, adipisci aut blanditiis quod asperiores sit consequuntur
-            fuga culpa, exercitationem eius repellendus. Molestiae dolorum
-            incidunt, sequi commodi et beatae dolorem qui dolore at vero, labore
-            reprehenderit officiis necessitatibus ea excepturi repellat maiores
-            fugiat cupiditate, in expedita! Architecto, reprehenderit ullam
-            impedit vitae earum, explicabo eius qui minima quia cupiditate
-            aliquid sunt sint.
+            At Momijij International Academy, we believe that education is not
+            just about acquiring knowledge—it’s about shaping an individual’s
+            future. Our holistic approach ensures that every student receives
+            personalized attention, from selecting the right educational
+            institution to navigating through the complex visa application
+            process. We also offer cultural workshops and language classes to
+            ensure students are fully prepared for their life in Japan, both
+            academically and socially.
           </p>
 
           <p className="text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
-            pariatur nemo ullam, distinctio doloribus non nesciunt vitae
-            corrupti maxime eligendi explicabo ex incidunt recusandae? Voluptate
-            laudantium distinctio fugiat! Nam accusantium doloremque facere
-            impedit quibusdam ipsum maxime, nisi veniam explicabo asperiores
-            consectetur nostrum atque deserunt fuga nemo expedita? Facere,
-            eveniet maxime?
+            Our dedicated team of professionals is committed to providing
+            continuous support to every student throughout their journey.
+            Whether it’s through our counseling sessions, application
+            assistance, or post-arrival support in Japan, we are always with you
+            every step of the way. We strive to make each student feel confident
+            and capable as they pursue their dreams in a new country.
+          </p>
+
+          <p className="text-lg">
+            Thank you for choosing Momijij International Academy as your partner
+            in this exciting new chapter of your life. We look forward to
+            helping you succeed in your educational endeavors and beyond!
           </p>
 
           {/* Contact Info with Enhanced Styling */}
@@ -125,10 +103,10 @@ export default function CEO() {
                 <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
                 <span className="font-medium">Email:</span>
                 <a
-                  href="mailto:info@gmail.com"
+                  href="mailto:info@momijij.com"
                   className="text-amber-600 hover:text-amber-700 transition-colors"
                 >
-                  info@gmail.com
+                  info@momijij.com
                 </a>
               </div>
               <div className="hidden sm:block w-px h-6 bg-amber-300"></div>

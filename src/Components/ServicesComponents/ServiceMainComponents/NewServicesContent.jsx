@@ -25,7 +25,7 @@ export default function NewServicesContent() {
                       <img
                         src={service.image}
                         alt={service.title}
-                        className="w-full h-[300px] lg:h-[350px] object-cover hover:scale-105 transition-transform duration-500"
+                        className="w-full h-[300px] lg:h-[350px] object-cover object-top hover:scale-105 transition-transform duration-500"
                       />
                     </div>
                   </div>
@@ -33,7 +33,7 @@ export default function NewServicesContent() {
                   {/* Content Section */}
                   <div className="flex-1 lg:px-8 space-y-4">
                     <div className="flex items-center gap-4">
-                      <div className="w-8 h-8 py-8 rounded-full flex items-center justify-center font-extrabold text-7xl opacity-40">
+                      <div className="flex items-center justify-center font-extrabold text-7xl text-transparent bg-clip-text bg-gradient-to-b from-[#F05A22] via-[#F78C1F] to-[#FBC21B]">
                         {index + 1}
                       </div>
                       <div className="flex flex-col">
@@ -41,7 +41,7 @@ export default function NewServicesContent() {
                           {service.title}
                         </div>
                         <div className="pt-2">
-                          <div className="w-12 h-1 bg-gradient-to-r from-amber-500 to-white rounded-full"></div>
+                          <div className="w-20 h-1 bg-gradient-to-r from-[#F05A22] via-[#F78C1F] to-white rounded-full"></div>
                         </div>
                       </div>
                     </div>

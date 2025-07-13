@@ -49,7 +49,7 @@ export default function FeaturedUniversities() {
 
   return (
     <div className="">
-      <div className="max-w-7xl mx-auto py-12">
+      <div className="max-w-7xl mx-auto py-12 relative">
         <motion.div
           className="text-center text-4xl font-extrabold mb-6"
           initial={{ opacity: 0, y: -20 }}
@@ -69,6 +69,10 @@ export default function FeaturedUniversities() {
         </motion.p>
 
         <div className="overflow-hidden w-full relative">
+          {/* Gradient Overlays */}
+          <div className="absolute left-0 top-0 h-full w-16 z-10 pointer-events-none bg-gradient-to-r from-white dark:from-white to-transparent" />
+          <div className="absolute right-0 top-0 h-full w-16 z-10 pointer-events-none bg-gradient-to-l from-white dark:from-white to-transparent" />
+
           <motion.div
             className="flex gap-4"
             ref={carouselRef}

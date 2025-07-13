@@ -35,11 +35,11 @@ export default function Find() {
       <div className="container mx-auto px-4 py-8">
         <div>
           {/* Header Section */}
-          <div className="flex flex-row md:flex-col gap-4 items-center justify-around mb-12 text-center md:text-left">
-            <div className="text-4xl md:text-4xl font-bold mb-4 md:mb-0">
+          <div className="flex flex-col gap-4 items-center justify-around mb-12 text-center md:text-left">
+            <div className="text-4xl md:text-6xl font-bold mb-4 md:mb-0">
               Start your journey
             </div>
-            <div className="text-xl font-extralight max-w-4xl text-center text-gray-700 leading-relaxed">
+            <div className="text-lg font-extralight max-w-4xl text-center text-gray-700 leading-relaxed">
               Find yourself in an enriching environment where students thrive
               through immersive Japanese language instruction and cultural
               exposure. We blend interactive learning with real-world context to

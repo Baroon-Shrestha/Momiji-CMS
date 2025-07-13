@@ -19,10 +19,14 @@ export default function ConultingHero() {
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
             Get Conslutation from Our Experts
           </h1>
-          <p className="text-lg md:text-xl max-w-2xl font-extralight">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui
-            voluptates quibusdam at adipisci, laudantium cumque aspernatur
-            tenetur iusto reprehenderit!
+          <p className="text-lg md:text-xl max-w-4xl font-extralight">
+            At Momijij International Academy, our team of expert consultants is
+            ready to guide you through every step of your study-abroad journey
+            to Japan. Whether you're seeking advice on university applications,
+            scholarships, or adjusting to life in Japan, we’re here to provide
+            personalized, professional support tailored to your needs. Contact
+            us today and take the first step toward your educational success in
+            Japan!
           </p>
         </div>
       </section>

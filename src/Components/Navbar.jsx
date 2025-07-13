@@ -126,7 +126,7 @@ export default function Navbar() {
 
               {/* Desktop About Dropdown Menu */}
               <div
-                className={`absolute top-full left-0 mt-2 w-64 bg-white text-gray-800 rounded-2xl shadow-2xl border transition-all duration-300 ease-out transform origin-top ${
+                className={`absolute top-full -left-5 mt-3  w-64 bg-white text-gray-800 rounded-2xl shadow-2xl border transition-all duration-300 ease-out transform origin-top ${
                   aboutDropdownOpen
                     ? "opacity-100 visible scale-100 translate-y-0"
                     : "opacity-0 invisible scale-95 -translate-y-2"
@@ -283,7 +283,7 @@ export default function Navbar() {
 
               {/* Desktop Services Dropdown Menu */}
               <div
-                className={`absolute top-full left-0 mt-2 w-64 bg-white text-gray-800 rounded-2xl shadow-2xl border transition-all duration-300 ease-out transform origin-top ${
+                className={`absolute top-full -left-10 mt-3 w-64 bg-white text-gray-800 rounded-2xl shadow-2xl border transition-all duration-300 ease-out transform origin-top ${
                   servicesDropdownOpen
                     ? "opacity-100 visible scale-100 translate-y-0"
                     : "opacity-0 invisible scale-95 -translate-y-2"

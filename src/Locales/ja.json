@@ -53,40 +53,40 @@
       "ending2": "日本への旅はMomijiから始まります。"
     },
     "services": {
-      "heading": "当社の主なサービス",
+      "heading": "当社のコアサービス",
       "subheading": "あなたの学習の旅を強化し、あなたの潜在能力を最大限に引き出すように設計された、当社の包括的な教育サービススイートをご覧ください。",
       "items": [
         {
-          "title": "学術優秀プログラム",
-          "description": "あなたの潜在能力を最大限に引き出すための高度なガイダンスとパフォーマンス重視の学習."
+          "title": "個別キャリアカウンセリング",
+          "description": "学生が自分の興味や目標に基づいて適切な学術的または職業的な道を選択できるようにするための個別指導。"
         },
         {
-          "title": "包括的な学習リソース",
-          "description": "没入型教育のための膨大なデジタルおよび物理的な学習ツールにアクセスできます."
+          "title": "日本語研修（JLPT/NAT）",
+          "description": "日本語能力試験（JLPT）、NAT、日本の教育機関で求められる語学試験合格に重点を置いたN5からN1レベルの認定トレーニングプログラム。"
         },
         {
-          "title": "専門家の指導方法論",
-          "description": "訓練を受けた教員が、個別の配慮をもって最新の教育法を教えます."
+          "title": "大学・短期大学入学サポート",
+          "description": "書類作成、申請書作成、エッセイ作成、日本の学校や大学とのやり取りなど、全面的にサポートします。"
         },
         {
-          "title": "デジタル学習プラットフォーム",
-          "description": "24/7 インタラクティブなコース教材と最先端テクノロジーにアクセスできます."
+          "title": "特定技能外国人労働者（SSW）プログラム準備",
+          "description": "日本の労働条件に合わせた言語、スキル、面接準備など、SSW候補者向けの特別コーチング。"
         },
         {
-          "title": "実践体験",
-          "description": "現実世界の実験と研究を通じて得られる実践的な知識."
+          "title": "ビザ申請とCoE手続き",
+          "description": "学生ビザの申請と在留資格証明書 (CoE) の文書化と追跡に関するステップバイステップのサポート。"
         },
         {
-          "title": "認定学習パスウェイ",
-          "description": "世界的に認められた認定資格につながる構造化されたコース."
+          "title": "奨学金ガイダンス",
+          "description": "文部科学省、JASSO、機関助成金などの日本の奨学金の検索と申請を、書類作成やエッセイ作成のサポートとともに支援します。"
         },
         {
-          "title": "共同研究グループ",
-          "description": "チームワークを促進するガイド付きセッションで仲間と一緒に学びましょう."
+          "title": "宿泊と出発前ブリーフィング",
+          "description": "文化的洞察力を持ちながら、学生が日本での生活に備えるための住居手配とオリエンテーションセッション。"
         },
         {
-          "title": "インタラクティブな評価ツール",
-          "description": "リアルタイムのフィードバックと詳細な分析で進捗状況を追跡します."
+          "title": "到着後とキャリアサポート",
+          "description": "アルバイト指導、インターンシップ紹介、現地サポートなど、来日後も継続的なサポート。"
         }
       ],
       "buttons": {
@@ -106,41 +106,42 @@
             "content": "業界の専門家による個別カウンセリング",
             "description": "経験豊富なカウンセラーが、大学の選択、コースの調整、ビザの手続きなどについて、留学の目標達成に役立つカスタマイズされたアドバイスを提供します.",
             "icon": "🎯",
-            "image": "/visa.jpg"
+            "image": "uploads/visa.jpg"
           },
           {
             "title": "認定された経験豊富なカウンセラー",
             "content": "書類作成から面接準備まで",
             "description": "私たちは、入学希望校の絞り込み、SOP および LoR の作成、申請書の記入、面接の準備など、入学手続きのあらゆる側面を支援します.",
             "icon": "👨‍🎓",
-            "image": "/team.jpg"
+            "image": "uploads/team.jpg"
           },
           {
             "title": "透過的なワークフロー システム",
             "content": "隠れた料金なし、明確な手続き",
             "description": "当社の専門家が、適切な奨学金や補助金の特定と申請をお手伝いし、資金援助や授業料免除を受けられる可能性を高めます.",
-            "icon": "💎"
+            "icon": "💎",
+            "image": "/uploads/Event.jpg"
           },
           {
             "title": "日本の大学との提携",
             "content": "正確、迅速、手間のかからない処理",
             "description": "ビザ申請、書類チェックリスト、模擬面接、大使館のガイドラインなど、お客様が安心して手続きを進められるよう、全面的なサポートを提供します.",
             "icon": "🏛️",
-            "image": "/partner.jpg"
+            "image": "/uploads/partner.jpg"
           },
           {
             "title": "個別カウンセリングアプローチ",
             "content": "あらゆる学生に合わせたソリューション",
             "description": "宿泊施設の検索から、文化、旅行、予算に関するオリエンテーションまで、出発前と到着後のガイダンスによりスムーズな移行が保証されます。",
             "icon": "🤝",
-            "image": "/conunselling.jpg"
+            "image": "uploads/conunselling.jpg"
           },
           {
             "title": "出発前後のサポート",
             "content": "安心して海外に定住できるようお手伝いします",
             "description": "宿泊施設の検索から、文化、旅行、予算に関するオリエンテーションまで、出発前と到着後のガイダンスによりスムーズな移行が保証されます.",
             "icon": "✈️",
-            "image": "/departure.jpg"
+            "image": "uploads/departure.jpg"
           }
         ]
       },
@@ -225,19 +226,19 @@
       "subtitle": "変革をもたらす教育の旅について、生徒たちのコメントをご覧ください",
       "items": [
         {
-          "name": "ABC 大学",
+          "name": "University of Tokyo",
           "description": "私の学問の歩みを変えた、素晴らしい大学です。教育の質、研究の機会、そしてネットワーキングの可能性は、私の期待をはるかに超えていました。",
           "student": "Sarah Johnson",
           "degree": "Computer Science"
         },
         {
-          "name": "DEF 大学",
+          "name": "Keio University",
           "description": "世界のイノベーションの中心地！ここでの経験はまさに素晴らしいものでした。起業家精神、最先端の研究施設、そして協力的な環境が、私の成長を大きく後押ししてくれました。",
           "student": "Michael Chen",
           "degree": "Engineering"
         },
         {
-          "name": "HIJ 大学",
+          "name": "Waseda University",
           "description": "不可能が可能になる場所。厳しい学術プログラムは、私に異なる考え方を身につけさせ、多角的な角度から問題に取り組むよう促しました。",
           "student": "Emily Rodriguez",
           "degree": "Physics"
@@ -419,17 +420,17 @@
         {
           "title": "成績に基づく奨学金",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim temporibus veritatis doloremque odit, nemo quos nisi laudantium? Similique ex esse laboriosam ducimus accusamus, quasi corrupti repellendus, assumenda dicta, blanditiis eveniet aperiam aliquid ipsa cupiditate. Enim culpa ipsum quia fugit, similique suscipit alias eum aut sequi, veritatis provident, a perspiciatis voluptatem?",
-          "image": "/conunselling.jpg"
+          "image": "/uploads/conunselling.jpg"
         },
         {
           "title": "ニーズベースの奨学金",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum at itaque veniam nihil, quaerat assumenda ex qui cumque pariatur voluptatibus distinctio quia eum repellendus molestias! Libero architecto nisi neque quae consequuntur debitis! Alias ex hic, velit minus et ut, atque ad optio minima molestias officia similique amet quisquam recusandae sit!",
-          "image": "/departure.jpg"
+          "image": "/uploads/departure.jpg"
         },
         {
           "title": "語学力奨学金",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eum vel dolores harum sint inventore explicabo saepe aspernatur mollitia, tenetur molestiae asperiores impedit. Dolorem eveniet nemo ipsam minus doloribus iusto ipsum laboriosam! Saepe, repudiandae ex quas reprehenderit voluptas pariatur molestiae amet provident totam explicabo ipsam quia, consectetur laborum assumenda error.",
-          "image": "/team.jpg"
+          "image": "/uploads/visa.jpg"
         }
       ]
     }

@@ -94,7 +94,7 @@ export default function Team() {
 
   return (
     // <div className="min-h bg-gradient-to-br from-gray-50 to-gray-100 py-16">
-    <div className="bg-gradient-to-b from-[#F05A22] via-[#F78C1F] to-[#FBC21B] text-[#FFFAE9] rounded-4xl pt-12 mb-16">
+    <div className="bg-gradient-to-b from-[#F05A22] via-[#F78C1F] to-[#FBC21B] text-[#FFFAE9] rounded-4xl pt-12 mb-16 mx-6">
       <div className="container mx-auto px-4 relative">
         {/* Background Text */}
         <div className="absolute left-1/2  top-20 transform -translate-x-1/2 -translate-y-12 pointer-events-none">
@@ -184,7 +184,7 @@ export default function Team() {
                         <img
                           src={member.image}
                           alt={`${member.name} - ${member.role}`}
-                          className="w-full h-full object-cover transition-all duration-700 hover:scale-110"
+                          className="w-full h-full object-cover object-top transition-all duration-700 hover:scale-110"
                         />
                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-white/10"></div>
 

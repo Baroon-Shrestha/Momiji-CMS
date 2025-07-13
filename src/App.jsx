@@ -50,43 +50,42 @@ function App() {
   return (
     <div className="min-h-screen">
       <Toaster position="top-center" reverseOrder={false} />
-      {/* <AnimatePresence mode="wait">
-        {!showMainContent ? (
+      <AnimatePresence mode="wait">
+        {/* {!showMainContent ? (
           <AnimatedIntro key="intro" />
         ) : ( */}
-      <motion.div
-        key="main"
-        variants={mainContentVariants}
-        initial="hidden"
-        animate="visible"
-        className="min-h-screen"
-      >
-        <ScrollToTop />
-        <Navbar />
+        <motion.div
+          key="main"
+          variants={mainContentVariants}
+          initial="hidden"
+          animate="visible"
+          className="min-h-screen"
+        >
+          <ScrollToTop />
+          <Navbar />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/about/team" element={<OurTeamsCopy />} />
-          <Route path="/about/vision" element={<Vision />} />
-          <Route path="/about/ceo" element={<CEO />} />
-          <Route path="/about/coordinator" element={<Coordiantor />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/services/consulting" element={<Consulting />} />
-          <Route path="/services/scholarship" element={<ScholarhipMain />} />
-          <Route path="/services/faq" element={<FAQmain />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/about/team" element={<OurTeamsCopy />} />
+            <Route path="/about/vision" element={<Vision />} />
+            <Route path="/about/ceo" element={<CEO />} />
+            <Route path="/about/coordinator" element={<Coordiantor />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/services/consulting" element={<Consulting />} />
+            <Route path="/services/scholarship" element={<ScholarhipMain />} />
+            <Route path="/services/faq" element={<FAQmain />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
 
-        {/* ChatBot - Will appear on all pages */}
-        <ChatBot />
-        <LanguageSwitcher />
-      </motion.div>
-      {/*  )}
-      </AnimatePresence> */}
+          <ChatBot />
+          <LanguageSwitcher />
+        </motion.div>
+        {/* )} */}
+      </AnimatePresence>
     </div>
   );
 }

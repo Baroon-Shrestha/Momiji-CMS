@@ -40,9 +40,8 @@ export default function FAQ() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-extralight">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt
-            quae pariatur sequi esse qui nostrum quia, deleniti sint vel
-            aspernatur.
+            Everything You Need to Know: General Information for a Smooth
+            Journey to Japan
           </p>
         </div>
         <div className="space-y-2">

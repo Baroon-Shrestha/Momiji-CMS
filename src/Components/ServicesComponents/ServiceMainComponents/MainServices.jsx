@@ -28,9 +28,8 @@ export default function MainServices() {
             {t("services.hero.heading")}
           </h1>
           <p className="text-lg md:text-xl max-w-2xl font-extralight">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui
-            voluptates quibusdam at adipisci, laudantium cumque aspernatur
-            tenetur iusto reprehenderit!
+            Empowering Your Educational Journey to Japan: Tailored Support for
+            Every Step
           </p>
         </div>
       </section>

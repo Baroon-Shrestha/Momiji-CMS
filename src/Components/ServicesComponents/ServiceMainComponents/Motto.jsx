@@ -63,7 +63,7 @@ export default function Motto() {
                 {/* Content */}
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center group-hover:from-amber-500 group-hover:to-amber-300 transition-all duration-300">
-                    <div className="text-amber-400 group-hover:text-white transition-colors duration-300">
+                    <div className="text-amber-400 text-2xl md:text-3xl group-hover:text-white transition-colors duration-300">
                       {service.icon}
                     </div>
                   </div>

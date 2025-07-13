@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
+  FaGraduationCap,
   FaBook,
   FaChalkboardTeacher,
   FaLaptopCode,
@@ -8,15 +9,11 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import { MdSchool, MdQuiz } from "react-icons/md";
-
-import ServicesHeader from "./Services/ServicesHeader";
-import ServiceCard from "./Services/ServiceCard";
-import ServicesCTAButtons from "./Services/ServicesCTAButtons";
+import ServiceCard from "../../HomeComponents/Services/ServiceCard";
+import ServicesHeader from "../../HomeComponents/Services/ServicesHeader";
 import { MessageSquareQuote, Newspaper, School } from "lucide-react";
 
-// ... (imports remain unchanged)
-
-export default function ServicesBanner() {
+export default function CoreServices() {
   const [hoveredCard, setHoveredCard] = useState(null);
   const [visibleCards, setVisibleCards] = useState([]);
   const { t } = useTranslation();
@@ -65,13 +62,10 @@ export default function ServicesBanner() {
   ];
 
   const serviceContent = t("home.services.items", { returnObjects: true });
-  const allServices = serviceContent.map((item, index) => ({
+  const services = serviceContent.map((item, index) => ({
     ...item,
     ...serviceIcons[index],
   }));
-
-  // Limit how many cards to show here
-  const servicesToShow = allServices.slice(0, 4); // change to 4 to test other case
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -94,7 +88,7 @@ export default function ServicesBanner() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden">
-      {/* Background Decoration */}
+      {/* Background blur shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-200/30 to-purple-200/30 rounded-full blur-3xl" />
         <div className="absolute top-1/2 -left-20 w-60 h-60 bg-gradient-to-br from-emerald-200/30 to-teal-200/30 rounded-full blur-3xl" />
@@ -105,7 +99,7 @@ export default function ServicesBanner() {
         <ServicesHeader />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {servicesToShow.map((service, index) => (
+          {services.map((service, index) => (
             <ServiceCard
               key={index}
               index={index}
@@ -116,17 +110,7 @@ export default function ServicesBanner() {
               service={service}
             />
           ))}
-
-          {/* If only 3 cards shown, insert CTA as 4th grid item */}
-          {/* {servicesToShow.length === 3 && (
-            <div className="flex items-center justify-center rounded-3xl bg-white/80 backdrop-blur-sm border border-gray-200/50 shadow-lg p-8 transition-all duration-300 ease-out">
-              <ServicesCTAButtons />
-            </div>
-          )} */}
         </div>
-
-        {/* If 4 or more cards, show CTA below the grid */}
-        {servicesToShow.length >= 4 && <ServicesCTAButtons />}
       </div>
     </div>
   );
